@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T14:52:00+03:00",
+  "updatedAt": "2026-06-02T16:24:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
@@ -20,6 +20,26 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-02",
+      "title": "Agent workflow trust is becoming the product surface",
+      "signalStrength": "Medium signal, technical-community skew",
+      "read": "HN discussions around agentic workflows are converging on a practical trust pattern: deterministic guardrails, explicit planning/spec artifacts, local or sandboxed execution, and observable outputs matter more than broad autonomy claims. For OpenClaw-adjacent GTM, the strongest story is not 'agents do everything'; it is 'agents act inside inspectable, reversible, human-shaped workflows'.",
+      "links": [
+        {
+          "label": "HN: GitHub Agentic Workflows",
+          "url": "https://news.ycombinator.com/item?id=46934107"
+        },
+        {
+          "label": "HN: Agentic Engineering Patterns",
+          "url": "https://news.ycombinator.com/item?id=47243272"
+        },
+        {
+          "label": "HN: local testing for agent-mutated state",
+          "url": "https://news.ycombinator.com/item?id=47471801"
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "title": "Vilnius has a dense-trust positioning angle",
@@ -151,6 +171,7 @@
     "For AI SDR/GTM-agent positioning, emphasize workflow reliability, evidence, and human approval rather than autonomy claims.",
     "For Vilnius Unfolded, test whether confidence cues, memory capture, and shareable proof outperform broad itinerary planning copy.",
     "For Vilnius/local discovery messaging, test 'legible, safe, local, surprisingly deep' against generic hidden-gems wording.",
+    "For OpenClaw-adjacent messaging, lead with inspectable workflows, reversible actions, and human-controlled account health instead of raw autonomy.",
     "Use the board as the public artifact; keep raw private notes in workspace memory."
   ],
   "sourceMap": [
