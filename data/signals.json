@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T13:58:00+03:00",
+  "updatedAt": "2026-06-02T14:24:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
@@ -20,6 +20,30 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-02",
+      "title": "AI travel is shifting toward trust-at-choice",
+      "signalStrength": "Medium signal, mixed launch and PR sources",
+      "read": "Recent travel launches and announcements are less interesting for generic 'AI itinerary' claims and more interesting for the trust layer around decisions: verified meeting points, creator/human-curated content, bookable infrastructure, and context-aware local guidance. For Vilnius Unfolded, the sharper wedge is not 'plan my whole trip'; it is 'help me confidently choose and remember this next local experience'.",
+      "links": [
+        {
+          "label": "GetYourGuide Spring 2026 AI release",
+          "url": "https://www.globenewswire.com/news-release/2026/04/22/3279001/0/en/GetYourGuide-Launches-AI-Powered-Features-to-Help-Travelers-Book-Tours-and-Activities-with-Confidence.html"
+        },
+        {
+          "label": "LCC Summit on AI travel in Vilnius",
+          "url": "https://www.c-mw.net/lufthansa-city-center-to-host-lcc-summit-on-ai-and-next-generation-travel-in-vilnius/"
+        },
+        {
+          "label": "Product Hunt travel category",
+          "url": "https://www.producthunt.com/categories/travel"
+        },
+        {
+          "label": "Silk Road trust and travel content launch signal",
+          "url": "https://www.einnews.com/pr_news/913076328/tbex-to-introduce-silk-road-at-tbex-north-america-2026"
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "title": "AI SDR demand is colliding with trust skepticism",
@@ -101,6 +125,7 @@
     "Map priority subreddits and subscribe only where the account can safely observe without looking spammy.",
     "Turn each useful scan into a brief with source, signal strength, noise caveat, implication, and recommendation.",
     "For AI SDR/GTM-agent positioning, emphasize workflow reliability, evidence, and human approval rather than autonomy claims.",
+    "For Vilnius Unfolded, test whether confidence cues, memory capture, and shareable proof outperform broad itinerary planning copy.",
     "Use the board as the public artifact; keep raw private notes in workspace memory."
   ],
   "sourceMap": [
