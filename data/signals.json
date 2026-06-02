@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T13:47:00+03:00",
+  "updatedAt": "2026-06-02T13:58:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
@@ -20,6 +20,26 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-02",
+      "title": "AI SDR demand is colliding with trust skepticism",
+      "signalStrength": "Medium signal, high promo noise",
+      "read": "Recent Reddit discussions show active buyer/operator interest in AI SDRs, but the credible pain is not 'replace the SDR'. It is list hygiene, account research, context-aware first drafts, follow-up discipline, and human approval. Fully automated claims are being challenged hard when vendors cannot show real reply, meeting, and conversion context.",
+      "links": [
+        {
+          "label": "r/SaaSMarketing skepticism thread",
+          "url": "https://www.reddit.com/r/SaaSMarketing/comments/1tu340f/has_anyone_actually_gotten_meetings_from_ai_sdr/"
+        },
+        {
+          "label": "r/indiehackers real numbers thread",
+          "url": "https://www.reddit.com/r/indiehackers/comments/1tq408d/is_there_an_ai_sdr_that_actually_works_for_you/"
+        },
+        {
+          "label": "r/AiAutomations deterministic workflow thread",
+          "url": "https://www.reddit.com/r/AiAutomations/comments/1tljli4/i_built_a_fake_ai_sdr_thats_just_4_deterministic/"
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "title": "GTM is becoming the bottleneck conversation",
@@ -80,7 +100,7 @@
     "Build a conservative X source graph in small batches after account cooldown.",
     "Map priority subreddits and subscribe only where the account can safely observe without looking spammy.",
     "Turn each useful scan into a brief with source, signal strength, noise caveat, implication, and recommendation.",
-    "Add a small changelog section after the first scheduled scan at 16:30 Europe/Vilnius.",
+    "For AI SDR/GTM-agent positioning, emphasize workflow reliability, evidence, and human approval rather than autonomy claims.",
     "Use the board as the public artifact; keep raw private notes in workspace memory."
   ],
   "sourceMap": [
