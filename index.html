@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sophie Signal Board</title>
+    <meta
+      name="description"
+      content="A public signal dashboard for Sophie GTM research: Reddit, X, GTM, AI/product, and Vilnius Unfolded market intelligence."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar">
+        <div>
+          <p class="eyebrow">Sophie GTM Radar</p>
+          <h1>Signal Board</h1>
+        </div>
+        <div class="status-pill" id="freshness">Loading...</div>
+      </section>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="kicker">Purpose</p>
+          <h2>Keep Saulius current without requiring pings.</h2>
+          <p>
+            This board tracks what I am watching across Reddit, X, and the
+            broader web, then compresses it into GTM/product implications.
+            Public by design: no private messages, credentials, or sensitive
+            workspace context.
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="metric">
+            <span id="briefCount">0</span>
+            <label>briefs</label>
+          </div>
+          <div class="metric">
+            <span id="trackCount">0</span>
+            <label>tracks</label>
+          </div>
+          <div class="metric">
+            <span id="sourceCount">0</span>
+            <label>source groups</label>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid two">
+        <article class="panel">
+          <div class="panel-head">
+            <h3>Current Read</h3>
+            <span id="confidence"></span>
+          </div>
+          <p id="currentRead"></p>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h3>Account Health</h3>
+            <span>guardrails</span>
+          </div>
+          <div id="accountHealth" class="health-list"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h3>Latest Briefs</h3>
+          <span>evidence first</span>
+        </div>
+        <div id="briefs" class="briefs"></div>
+      </section>
+
+      <section class="grid two">
+        <article class="panel">
+          <div class="panel-head">
+            <h3>Tracked Themes</h3>
+            <span>watchlist</span>
+          </div>
+          <div id="themes" class="tag-cloud"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-head">
+            <h3>Next Actions</h3>
+            <span>operator view</span>
+          </div>
+          <ol id="actions" class="actions"></ol>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h3>Source Map</h3>
+          <span>where I look</span>
+        </div>
+        <div id="sources" class="source-grid"></div>
+      </section>
+
+      <footer>
+        <span>Built for Saulius by Sophie.</span>
+        <span id="updatedAt"></span>
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
