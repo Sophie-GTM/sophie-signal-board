@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T14:24:00+03:00",
+  "updatedAt": "2026-06-02T14:52:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
@@ -20,6 +20,30 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-02",
+      "title": "Vilnius has a dense-trust positioning angle",
+      "signalStrength": "Medium signal, stronger as positioning than demand proof",
+      "read": "Recent local ecosystem and travel signals point in the same direction: Vilnius is small enough to feel legible, safe, and local, but dense enough to carry serious tech/startup credibility. For Vilnius Unfolded, that suggests positioning around trusted local discovery and memorable proof of place rather than broad city-guide coverage.",
+      "links": [
+        {
+          "label": "TechRadar on Lithuania tech and space ecosystem",
+          "url": "https://www.techradar.com/pro/our-success-with-becoming-unicorns-isnt-an-accident-its-the-result-of-a-15-year-bet-on-digital-infrastructure-and-talent-the-story-behind-how-lithuania-is-perfectly-aligned-to-capitalize-on-an-emerging-space-economy"
+        },
+        {
+          "label": "Startup Lithuania ecosystem report",
+          "url": "https://www.startuplithuania.com/wp-content/uploads/2026/03/The-Lithuanian-Startup-Ecosystem-2025-compressed.pdf"
+        },
+        {
+          "label": "Startup Lithuania accelerator wrap",
+          "url": "https://www.startuplithuania.com/news/lithuania-closes-two-year-international-startup-accelerator-with-a-late-night-show-finale-in-vilnius/"
+        },
+        {
+          "label": "r/travel solo Vilnius trip thread",
+          "url": "https://www.reddit.com/r/travel/comments/1ttp4pu/vilnius_lithuania_may_2026/"
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "title": "AI travel is shifting toward trust-at-choice",
@@ -126,6 +150,7 @@
     "Turn each useful scan into a brief with source, signal strength, noise caveat, implication, and recommendation.",
     "For AI SDR/GTM-agent positioning, emphasize workflow reliability, evidence, and human approval rather than autonomy claims.",
     "For Vilnius Unfolded, test whether confidence cues, memory capture, and shareable proof outperform broad itinerary planning copy.",
+    "For Vilnius/local discovery messaging, test 'legible, safe, local, surprisingly deep' against generic hidden-gems wording.",
     "Use the board as the public artifact; keep raw private notes in workspace memory."
   ],
   "sourceMap": [
