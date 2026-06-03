@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-03T15:50:00+03:00",
+  "updatedAt": "2026-06-03T16:30:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
-    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. For Saulius, Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, demo artifacts, and content that makes the product legible to both buyers and AI answer surfaces."
+    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. Fresh inbound AI SDR discussion keeps pointing to the same failure mode: teams add automation before lead definitions, routing, CRM context, and ownership are clean. For Saulius, Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, demo artifacts, and content that makes the product legible to both buyers and AI answer surfaces."
   },
   "accountHealth": [
     {
@@ -20,6 +20,30 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-03",
+      "title": "Inbound AI SDR pain is process debt, not only tooling",
+      "signalStrength": "Medium signal, Reddit-heavy and vendor-noisy",
+      "read": "A same-day Reddit thread and adjacent discussions show teams with rising inbound volume but falling conversion because leads disappear between marketing celebration, qualification, routing, ownership, and rep follow-up. The repeatable buyer language is not 'we need a magic AI SDR'; it is 'we need clean hard signals, context-rich handoff, CRM sync, and fast but controlled follow-up'. For Sophie/OpenClaw positioning, lead with workflow diagnosis, signal quality, and human-approved handoff before automation claims.",
+      "links": [
+        {
+          "label": "r/ArtificialInteligence inbound AI SDR process thread",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1tvgn3x/ai_sdr_tools_were_supposed_to_fix_inbound_in_2026/"
+        },
+        {
+          "label": "r/GrowthHacking inbound AI SDR tools thread",
+          "url": "https://www.reddit.com/r/GrowthHacking/comments/1tuorhf/best_inbound_ai_sdr_tools_in_2026_or_are_we_all/"
+        },
+        {
+          "label": "r/SaaSMarketing AI SDR meetings thread",
+          "url": "https://www.reddit.com/r/SaaSMarketing/comments/1tu340f/has_anyone_actually_gotten_meetings_from_ai_sdr/"
+        },
+        {
+          "label": "Product Hunt AI SDR category",
+          "url": "https://www.producthunt.com/categories/ai-sdr?order=recent_launches"
+        }
+      ]
+    },
     {
       "date": "2026-06-03",
       "title": "AI search is joining the lead-gen stack",
