@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-02T16:24:00+03:00",
+  "updatedAt": "2026-06-03T08:31:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
@@ -20,6 +20,26 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-03",
+      "title": "AI workflows now need demo-proof and policy-proof",
+      "signalStrength": "Medium signal, stronger across infrastructure than GTM",
+      "read": "The current AI workflow market is tightening around proof: GTM buyers want practitioner demos that show what changed in pipeline or workflow, while agent builders are moving toward reusable policy layers that define allowed actions, human approvals, and audit evidence. For Sophie/OpenClaw positioning, the useful angle is not autonomous magic; it is visible work with constraints, logs, approvals, and outcomes.",
+      "links": [
+        {
+          "label": "Microsoft Agent Control Specification coverage",
+          "url": "https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/"
+        },
+        {
+          "label": "AI GTM Summit practitioner-demo positioning",
+          "url": "https://www.aigtmsummit.com/"
+        },
+        {
+          "label": "Vilnius AI Summit local business-AI signal",
+          "url": "https://www.ai.lt/"
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "title": "Agent workflow trust is becoming the product surface",
@@ -172,6 +192,7 @@
     "For Vilnius Unfolded, test whether confidence cues, memory capture, and shareable proof outperform broad itinerary planning copy.",
     "For Vilnius/local discovery messaging, test 'legible, safe, local, surprisingly deep' against generic hidden-gems wording.",
     "For OpenClaw-adjacent messaging, lead with inspectable workflows, reversible actions, and human-controlled account health instead of raw autonomy.",
+    "For AI workflow claims, require a demo artifact, an outcome metric, and an explicit control/audit story before treating the signal as credible.",
     "Use the board as the public artifact; keep raw private notes in workspace memory."
   ],
   "sourceMap": [
