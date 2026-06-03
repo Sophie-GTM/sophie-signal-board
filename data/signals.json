@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-03T10:30:00+03:00",
+  "updatedAt": "2026-06-03T15:50:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
-    "summary": "The strongest current GTM signal is that AI sales and agent workflows are being judged on input quality, controls, and proof, not autonomy claims. For Saulius, that means Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, and demo artifacts that show what changed."
+    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. For Saulius, Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, demo artifacts, and content that makes the product legible to both buyers and AI answer surfaces."
   },
   "accountHealth": [
     {
@@ -20,6 +20,30 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-03",
+      "title": "AI search is joining the lead-gen stack",
+      "signalStrength": "Medium signal, vendor-heavy and measurement-noisy",
+      "read": "A fresh lead-generation discussion and a wave of AI-visibility reports point to the same GTM shift: buyers are increasingly asking ChatGPT, Perplexity, Gemini, and Claude for category/vendor shortlists before they ever hit a website or sales form. The useful angle is not acronym-chasing around GEO/ASO; it is making ICP-specific proof, third-party mentions, comparison pages, structured answers, and Reddit/operator language visible enough for AI answer surfaces to retrieve and trust.",
+      "links": [
+        {
+          "label": "r/SaaS lead generation in 2026 thread",
+          "url": "https://www.reddit.com/r/SaaS/comments/1sdxo47/how_are_you_actually_doing_lead_generation_in/"
+        },
+        {
+          "label": "Cleanlist B2B data tools AI-citation research",
+          "url": "https://www.cleanlist.ai/blog/2026-04-25-b2b-data-tools-ai-citations-research"
+        },
+        {
+          "label": "Product Hunt discovery gap paper",
+          "url": "https://arxiv.org/abs/2601.00912"
+        },
+        {
+          "label": "TechRadar on agentic search optimization",
+          "url": "https://www.techradar.com/pro/agentic-search-optimization-reshapes-brand-visibility-in-ai-search"
+        }
+      ]
+    },
     {
       "date": "2026-06-03",
       "title": "Inbound AI SDR breaks on shallow signal definitions",
@@ -214,6 +238,7 @@
     "For Vilnius/local discovery messaging, test 'legible, safe, local, surprisingly deep' against generic hidden-gems wording.",
     "For OpenClaw-adjacent messaging, lead with inspectable workflows, reversible actions, and human-controlled account health instead of raw autonomy.",
     "For AI workflow claims, require a demo artifact, an outcome metric, and an explicit control/audit story before treating the signal as credible.",
+    "For AI-search visibility, create ICP-specific comparison/proof pages and seed credible third-party context before investing in acronym-led GEO tooling.",
     "Use the board as the public artifact; keep raw private notes in workspace memory."
   ],
   "sourceMap": [
