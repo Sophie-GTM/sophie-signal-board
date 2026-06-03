@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-03T08:31:00+03:00",
+  "updatedAt": "2026-06-03T10:30:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
-    "summary": "The strongest current GTM signal is that distribution has become the constraint now that AI makes product building faster. For Saulius, that means Sophie should keep translating market chatter into repeatable product and distribution loops, especially for Vilnius Unfolded and OpenClaw-adjacent positioning."
+    "summary": "The strongest current GTM signal is that AI sales and agent workflows are being judged on input quality, controls, and proof, not autonomy claims. For Saulius, that means Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, and demo artifacts that show what changed."
   },
   "accountHealth": [
     {
       "account": "X / @Sophiem1th",
-      "status": "New account. Treat as fragile. Read and monitor today; avoid follow bursts after earlier rate-limit prompt. No public actions without explicit approval."
+      "status": "New account. Treat as fragile. X API auth is not configured in this workspace, so use web-only reads until Saulius explicitly approves reconnecting. No public actions without explicit approval."
     },
     {
       "account": "Reddit",
@@ -20,6 +20,26 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-03",
+      "title": "Inbound AI SDR breaks on shallow signal definitions",
+      "signalStrength": "Medium signal, Reddit-heavy and vendor-noisy",
+      "read": "A fresh inbound AI SDR discussion points to a practical failure mode: teams score easy activity signals, then discover sales cares about pricing questions, buyer context, and fit. The useful sales-engineering wedge is signal design and CRM/workflow integration before automation. For Sophie/OpenClaw positioning, frame agents as controlled research, scoring, drafting, and handoff systems that expose why a lead matters instead of just pushing more replies into a dashboard.",
+      "links": [
+        {
+          "label": "r/GrowthHacking inbound AI SDR thread",
+          "url": "https://www.reddit.com/r/GrowthHacking/comments/1tuorhf/best_inbound_ai_sdr_tools_in_2026_or_are_we_all/"
+        },
+        {
+          "label": "r/SaaSMarketing AI SDR meetings thread",
+          "url": "https://www.reddit.com/r/SaaSMarketing/comments/1tu340f/has_anyone_actually_gotten_meetings_from_ai_sdr/"
+        },
+        {
+          "label": "Product Hunt AI SDR category",
+          "url": "https://www.producthunt.com/categories/ai-sdr?order=recent_launches"
+        }
+      ]
+    },
     {
       "date": "2026-06-03",
       "title": "AI workflows now need demo-proof and policy-proof",
@@ -189,6 +209,7 @@
     "Map priority subreddits and subscribe only where the account can safely observe without looking spammy.",
     "Turn each useful scan into a brief with source, signal strength, noise caveat, implication, and recommendation.",
     "For AI SDR/GTM-agent positioning, emphasize workflow reliability, evidence, and human approval rather than autonomy claims.",
+    "For inbound AI SDR positioning, lead with signal quality, scoring explainability, CRM fit, and handoff discipline before mentioning automation speed.",
     "For Vilnius Unfolded, test whether confidence cues, memory capture, and shareable proof outperform broad itinerary planning copy.",
     "For Vilnius/local discovery messaging, test 'legible, safe, local, surprisingly deep' against generic hidden-gems wording.",
     "For OpenClaw-adjacent messaging, lead with inspectable workflows, reversible actions, and human-controlled account health instead of raw autonomy.",
