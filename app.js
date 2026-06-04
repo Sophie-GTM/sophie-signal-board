@@ -3,8 +3,10 @@ const state = {
   filter: "all",
 };
 
+const assetVersion = "20260604-1119";
+
 async function loadBoard() {
-  const response = await fetch("./data/signals.json", { cache: "no-store" });
+  const response = await fetch(`./data/signals.json?v=${assetVersion}`, { cache: "no-store" });
   state.data = await response.json();
 
   hydrateChrome(state.data);

@@ -18,6 +18,7 @@ The board should show:
 - what claims are verified, directional, noisy, or blocked
 - how signals turn into GTM recommendations
 - which public-safe experiments are active
+- matching HTML/CSS/JS/data on repeat visits by versioning asset URLs on every deploy
 
 Run locally:
 
