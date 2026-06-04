@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-03T16:30:00+03:00",
+  "updatedAt": "2026-06-04T08:14:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
-    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. Fresh inbound AI SDR discussion keeps pointing to the same failure mode: teams add automation before lead definitions, routing, CRM context, and ownership are clean. For Saulius, Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, demo artifacts, and content that makes the product legible to both buyers and AI answer surfaces."
+    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. A local Lithuania/Vilnius layer is getting more useful: KAYAK is expanding AI/product work in Lithuania, Outcraft AI raised around autonomous revenue execution, and Wisit shows AI local/tourism experiences moving from novelty into practical cultural-guide infrastructure. For Saulius, Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, demo artifacts, and content that makes the product legible to both buyers and AI answer surfaces."
   },
   "accountHealth": [
     {
@@ -20,6 +20,30 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-04",
+      "title": "Lithuania is a useful proof market for AI travel and revenue agents",
+      "signalStrength": "Medium signal, PR-heavy but locally relevant",
+      "read": "Fresh local signals point to Lithuania as more than a backdrop: KAYAK is expanding AI/product hiring in Lithuania for travel planning, Outcraft AI raised pre-seed funding around autonomous revenue execution from Vilnius, and Wisit is positioning AI audio guides for cultural tourism without app-install friction. The noise caveat is that much of this is company PR, not independent demand proof. The GTM implication is still useful: for Vilnius/local-experience work, emphasize trusted local proof, lightweight experience activation, and a credible Lithuania AI ecosystem story; for OpenClaw-adjacent GTM, compare against revenue-agent claims by foregrounding controls, context, and human-approved execution.",
+      "links": [
+        {
+          "label": "KAYAK expands AI/product work in Lithuania",
+          "url": "https://investlithuania.com/news/kayak-expands-its-talent-base-in-lithuania-to-support-ai-innovation-and-corporate-travel-planning/"
+        },
+        {
+          "label": "Outcraft AI raises pre-seed for autonomous revenue engine",
+          "url": "https://www.eu-startups.com/2026/04/vilnius-based-outcraft-ai-raises-e2-million-to-build-an-autonomous-revenue-engine/"
+        },
+        {
+          "label": "Wisit AI cultural-tour guide signal",
+          "url": "https://www.wisit.ai/"
+        },
+        {
+          "label": "LCC Summit on AI travel in Vilnius",
+          "url": "https://www.c-mw.net/lufthansa-city-center-to-host-lcc-summit-on-ai-and-next-generation-travel-in-vilnius/"
+        }
+      ]
+    },
     {
       "date": "2026-06-03",
       "title": "Inbound AI SDR pain is process debt, not only tooling",
