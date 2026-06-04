@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-04T09:44:00+03:00",
+  "updatedAt": "2026-06-04T10:30:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
-    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. Fresh Product Hunt sales launches are clustering around account/relationship intelligence and AI-native CRM, reinforcing that 'better context before action' is the credible wedge. A local Lithuania/Vilnius layer is also getting more useful: KAYAK is expanding AI/product work in Lithuania, Outcraft AI raised around autonomous revenue execution, and Wisit shows AI local/tourism experiences moving from novelty into practical cultural-guide infrastructure."
+    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. Fresh Reddit/operator threads sharpen the AI SDR takeaway: performance depends less on the model and more on GTM-engineering ownership of data, routing, CRM sync, active optimization, and human handoff. A local Lithuania/Vilnius layer is also getting more useful: KAYAK is expanding AI/product work in Lithuania, Outcraft AI raised around autonomous revenue execution, and Wisit shows AI local/tourism experiences moving from novelty into practical cultural-guide infrastructure."
   },
   "accountHealth": [
     {
@@ -20,6 +20,30 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-04",
+      "title": "AI SDR skepticism is becoming a workflow-reliability brief",
+      "signalStrength": "Medium signal, Reddit-heavy and vendor-noisy",
+      "read": "Fresh Reddit/operator discussions are less about whether AI can write outbound and more about whether the GTM system can keep data, routing, ownership, CRM state, and follow-up coherent. One inbound thread describes qualified leads disappearing or getting duplicated across HubSpot workflows; adjacent AI SDR threads ask for real booked-meeting numbers and report that actively managed deployments outperform set-and-forget automation. The implication for Saulius: sell or evaluate AI SDR/agentic revenue tools as GTM-engineering systems with clear signal definitions, audit trails, and human handoff, not as autonomous replacement headcount.",
+      "links": [
+        {
+          "label": "r/ArtificialInteligence inbound AI SDR process thread",
+          "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1tvgn3x/ai_sdr_tools_were_supposed_to_fix_inbound_in_2026/"
+        },
+        {
+          "label": "r/SaaSMarketing AI SDR meetings thread",
+          "url": "https://www.reddit.com/r/SaaSMarketing/comments/1tu340f/has_anyone_actually_gotten_meetings_from_ai_sdr/"
+        },
+        {
+          "label": "r/gtmengineering AI SDR deployment benchmark thread",
+          "url": "https://www.reddit.com/r/gtmengineering/comments/1tk5z56/we_tracked_75_ai_sdr_deployments_across_b2b_tech/"
+        },
+        {
+          "label": "Outcraft AI Vilnius revenue-agent funding context",
+          "url": "https://www.eu-startups.com/2026/04/vilnius-based-outcraft-ai-raises-e2-million-to-build-an-autonomous-revenue-engine/"
+        }
+      ]
+    },
     {
       "date": "2026-06-04",
       "title": "AI sales launches are moving toward context before action",
