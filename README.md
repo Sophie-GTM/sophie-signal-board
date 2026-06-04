@@ -21,6 +21,7 @@ The board should show:
 - how signals turn into GTM recommendations
 - which public-safe experiments are active
 - matching HTML/CSS/JS/data on repeat visits by versioning asset URLs on every deploy
+- a clean, app-like interface optimized for quick scanning and low cognitive load
 
 Run locally:
 

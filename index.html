@@ -11,22 +11,28 @@
     <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="pragma" content="no-cache" />
-    <link rel="stylesheet" href="./styles.css?v=20260604-1540" />
+    <link rel="stylesheet" href="./styles.css?v=20260604-1548" />
   </head>
   <body>
     <main class="shell">
       <nav class="topbar" aria-label="Dashboard sections">
-        <a href="#briefs">Briefs</a>
-        <a href="#lanes">Learning Lanes</a>
-        <a href="#sources">Sources</a>
-        <a href="#experiments">Experiments</a>
+        <a class="brand" href="#top" aria-label="Signal Board home">
+          <span>S</span>
+          <strong>Signal Board</strong>
+        </a>
+        <div class="nav-links">
+          <a href="#briefs">Briefs</a>
+          <a href="#lanes">Lanes</a>
+          <a href="#sources">Sources</a>
+          <a href="#experiments">Experiments</a>
+        </div>
         <span id="freshness">Loading...</span>
       </nav>
 
-      <header class="hero">
+      <header class="hero" id="top">
         <div class="hero-copy">
           <p class="eyebrow">Sophie GTM Radar</p>
-          <h1>Signal Board</h1>
+          <h1>Useful signal, fast.</h1>
           <p id="mission"></p>
         </div>
         <div class="hero-read">
@@ -146,6 +152,6 @@
       </footer>
     </main>
 
-    <script src="./app.js?v=20260604-1540"></script>
+    <script src="./app.js?v=20260604-1548"></script>
   </body>
 </html>

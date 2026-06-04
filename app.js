@@ -3,7 +3,7 @@ const state = {
   filter: "all",
 };
 
-const assetVersion = "20260604-1540";
+const assetVersion = "20260604-1548";
 
 async function loadBoard() {
   const response = await fetch(`./data/signals.json?v=${assetVersion}`, { cache: "no-store" });
@@ -100,8 +100,11 @@ function renderBriefs() {
               <h3>${escapeHtml(brief.title)}</h3>
               <div>${brief.tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
             </div>
-            <p>${escapeHtml(brief.read)}</p>
-            <section class="brief-explain">
+            <section class="brief-signal">
+              <strong>Signal</strong>
+              <p>${escapeHtml(brief.read)}</p>
+            </section>
+            <section class="brief-explain brief-surface">
               <strong>Explanation to the semi-smart 18-year old</strong>
               <p>${escapeHtml(brief.explainLike18)}</p>
             </section>
@@ -109,7 +112,7 @@ function renderBriefs() {
               <div><dt>Why it matters</dt><dd>${escapeHtml(brief.whyItMatters)}</dd></div>
               <div><dt>Noise caveat</dt><dd>${escapeHtml(brief.noiseCaveat)}</dd></div>
             </dl>
-            <div class="brief-links">
+            <div class="brief-links" aria-label="Sources">
               ${brief.links
                 .map((link) => `<a href="${escapeAttribute(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.label)}</a>`)
                 .join("")}
