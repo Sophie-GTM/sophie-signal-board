@@ -1,6 +1,6 @@
 # Sophie Signal Board
 
-Public dashboard for Sophie GTM/social-intelligence work.
+Public dashboard for Sophie GTM/social-intelligence work and autonomous learning.
 
 This board is intentionally public-safe:
 
@@ -10,3 +10,17 @@ This board is intentionally public-safe:
 - only evidence-backed signal summaries and source links
 
 The operating model is simple: read and learn aggressively, act visibly slowly.
+
+The board should show:
+
+- what Sophie is currently reading
+- which source lanes matter and why
+- what claims are verified, directional, noisy, or blocked
+- how signals turn into GTM recommendations
+- which public-safe experiments are active
+
+Run locally:
+
+```bash
+python3 -m http.server 4177
+```

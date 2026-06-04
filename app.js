@@ -1,54 +1,111 @@
+const state = {
+  data: null,
+  filter: "all",
+};
+
 async function loadBoard() {
   const response = await fetch("./data/signals.json", { cache: "no-store" });
-  const data = await response.json();
+  state.data = await response.json();
 
-  const updated = new Date(data.updatedAt);
-  document.getElementById("freshness").textContent = data.freshness;
-  document.getElementById("updatedAt").textContent =
-    `Updated ${updated.toLocaleString("en-GB", { timeZone: "Europe/Vilnius" })} Vilnius time`;
-  document.getElementById("briefCount").textContent = data.latestBriefs.length;
-  document.getElementById("trackCount").textContent = data.trackedThemes.length;
-  document.getElementById("sourceCount").textContent = data.sourceMap.length;
-  document.getElementById("confidence").textContent = data.currentRead.confidence;
-  document.getElementById("currentRead").textContent = data.currentRead.summary;
-
-  renderAccountHealth(data.accountHealth);
-  renderBriefs(data.latestBriefs);
-  renderThemes(data.trackedThemes);
-  renderActions(data.nextActions);
-  renderSources(data.sourceMap);
+  hydrateChrome(state.data);
+  renderOperatingLoop(state.data.operatingLoop);
+  renderAccountHealth(state.data.accountHealth);
+  renderInfluenceRules(state.data.influenceRules);
+  renderBriefs();
+  renderLearningLanes(state.data.learningLanes);
+  renderExperiments(state.data.experiments);
+  renderActions(state.data.nextActions);
+  renderSources(state.data.sourceMap);
+  bindFilters();
 }
 
-function renderAccountHealth(items) {
-  const root = document.getElementById("accountHealth");
-  root.innerHTML = items
+function hydrateChrome(data) {
+  const updated = new Date(data.updatedAt);
+  setText("freshness", data.freshness);
+  setText("mission", data.mission);
+  setText(
+    "updatedAt",
+    `Updated ${updated.toLocaleString("en-GB", { timeZone: "Europe/Vilnius" })} Vilnius time`,
+  );
+  setText("briefCount", data.latestBriefs.length);
+  setText("laneCount", data.learningLanes.length);
+  setText("sourceCount", data.sourceMap.length);
+  setText("experimentCount", data.experiments.length);
+  setText("confidence", data.currentRead.confidence);
+  setText("currentRead", data.currentRead.summary);
+}
+
+function renderOperatingLoop(items) {
+  document.getElementById("operatingLoop").innerHTML = items
     .map(
-      (item) => `
-        <div class="health-item">
-          <strong>${escapeHtml(item.account)}</strong>
-          <p>${escapeHtml(item.status)}</p>
-        </div>
+      (item, index) => `
+        <article class="loop-card">
+          <span>${String(index + 1).padStart(2, "0")}</span>
+          <strong>${escapeHtml(item.stage)}</strong>
+          <p>${escapeHtml(item.description)}</p>
+        </article>
       `,
     )
     .join("");
 }
 
-function renderBriefs(items) {
-  const root = document.getElementById("briefs");
-  root.innerHTML = items
+function renderAccountHealth(items) {
+  document.getElementById("accountHealth").innerHTML = items
+    .map(
+      (item) => `
+        <article class="status-card">
+          <div>
+            <strong>${escapeHtml(item.account)}</strong>
+            <span class="status ${escapeHtml(item.state)}">${escapeHtml(item.state)}</span>
+          </div>
+          <p>${escapeHtml(item.status)}</p>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderInfluenceRules(items) {
+  document.getElementById("influenceRules").innerHTML = items
+    .map(
+      (rule) => `
+        <article>
+          <strong>${escapeHtml(rule.name)}</strong>
+          <p>${escapeHtml(rule.rule)}</p>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderBriefs() {
+  const data = state.data;
+  const items =
+    state.filter === "all"
+      ? data.latestBriefs
+      : data.latestBriefs.filter((brief) => brief.tags.includes(state.filter));
+
+  document.getElementById("briefList").innerHTML = items
     .map(
       (brief) => `
         <article class="brief">
-          <div class="brief-meta">
+          <div class="brief-date">
             <strong>${escapeHtml(brief.date)}</strong>
-            <div>${escapeHtml(brief.signalStrength)}</div>
+            <span>${escapeHtml(brief.signalStrength)}</span>
           </div>
-          <div>
-            <strong>${escapeHtml(brief.title)}</strong>
+          <div class="brief-body">
+            <div class="brief-title">
+              <h3>${escapeHtml(brief.title)}</h3>
+              <div>${brief.tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
+            </div>
             <p>${escapeHtml(brief.read)}</p>
+            <dl>
+              <div><dt>Why it matters</dt><dd>${escapeHtml(brief.whyItMatters)}</dd></div>
+              <div><dt>Noise caveat</dt><dd>${escapeHtml(brief.noiseCaveat)}</dd></div>
+            </dl>
             <div class="brief-links">
               ${brief.links
-                .map((link) => `<a href="${link.url}" target="_blank" rel="noreferrer">${escapeHtml(link.label)}</a>`)
+                .map((link) => `<a href="${escapeAttribute(link.url)}" target="_blank" rel="noreferrer">${escapeHtml(link.label)}</a>`)
                 .join("")}
             </div>
           </div>
@@ -58,29 +115,76 @@ function renderBriefs(items) {
     .join("");
 }
 
-function renderThemes(items) {
-  const root = document.getElementById("themes");
-  root.innerHTML = items.map((theme) => `<span>${escapeHtml(theme)}</span>`).join("");
-}
-
-function renderActions(items) {
-  const root = document.getElementById("actions");
-  root.innerHTML = items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
-}
-
-function renderSources(items) {
-  const root = document.getElementById("sources");
-  root.innerHTML = items
+function renderLearningLanes(items) {
+  document.getElementById("learningLanes").innerHTML = items
     .map(
-      (source) => `
-        <article class="source-card">
-          <span class="source-type">${escapeHtml(source.type)}</span>
-          <strong>${escapeHtml(source.name)}</strong>
-          <p>${escapeHtml(source.why)}</p>
+      (lane) => `
+        <article class="lane-card">
+          <div class="lane-top">
+            <span>${escapeHtml(lane.cadence)}</span>
+            <strong>${escapeHtml(lane.name)}</strong>
+          </div>
+          <p>${escapeHtml(lane.why)}</p>
+          <ul>
+            ${lane.questions.map((question) => `<li>${escapeHtml(question)}</li>`).join("")}
+          </ul>
         </article>
       `,
     )
     .join("");
+}
+
+function renderExperiments(items) {
+  document.getElementById("experimentsList").innerHTML = items
+    .map(
+      (experiment) => `
+        <article class="experiment">
+          <strong>${escapeHtml(experiment.name)}</strong>
+          <p>${escapeHtml(experiment.hypothesis)}</p>
+          <span>${escapeHtml(experiment.measure)}</span>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderActions(items) {
+  document.getElementById("actions").innerHTML = items
+    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .join("");
+}
+
+function renderSources(items) {
+  document.getElementById("sourcesGrid").innerHTML = items
+    .map(
+      (source) => `
+        <article class="source-card">
+          <div>
+            <span>${escapeHtml(source.type)}</span>
+            <strong>${escapeHtml(source.name)}</strong>
+          </div>
+          <p>${escapeHtml(source.why)}</p>
+          <small>${escapeHtml(source.posture)}</small>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function bindFilters() {
+  document.querySelectorAll("[data-filter]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.filter = button.dataset.filter;
+      document
+        .querySelectorAll("[data-filter]")
+        .forEach((item) => item.classList.toggle("active", item === button));
+      renderBriefs();
+    });
+  });
+}
+
+function setText(id, value) {
+  document.getElementById(id).textContent = value;
 }
 
 function escapeHtml(value) {
@@ -92,7 +196,11 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
+function escapeAttribute(value) {
+  return escapeHtml(value).replaceAll("`", "&#096;");
+}
+
 loadBoard().catch((error) => {
-  document.getElementById("freshness").textContent = "Load error";
+  setText("freshness", "Load error");
   console.error(error);
 });
