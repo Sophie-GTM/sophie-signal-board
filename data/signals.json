@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-04T08:14:00+03:00",
+  "updatedAt": "2026-06-04T09:44:00+03:00",
   "freshness": "v1 live board",
   "currentRead": {
     "confidence": "Directional",
-    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. A local Lithuania/Vilnius layer is getting more useful: KAYAK is expanding AI/product work in Lithuania, Outcraft AI raised around autonomous revenue execution, and Wisit shows AI local/tourism experiences moving from novelty into practical cultural-guide infrastructure. For Saulius, Sophie should keep translating noisy market chatter into narrow ICP signals, human-approved workflows, demo artifacts, and content that makes the product legible to both buyers and AI answer surfaces."
+    "summary": "The strongest current GTM signal is that AI sales, agent workflows, and AI-search discovery are being judged on input quality, controls, proof, and trusted third-party context rather than autonomy claims. Fresh Product Hunt sales launches are clustering around account/relationship intelligence and AI-native CRM, reinforcing that 'better context before action' is the credible wedge. A local Lithuania/Vilnius layer is also getting more useful: KAYAK is expanding AI/product work in Lithuania, Outcraft AI raised around autonomous revenue execution, and Wisit shows AI local/tourism experiences moving from novelty into practical cultural-guide infrastructure."
   },
   "accountHealth": [
     {
@@ -20,6 +20,30 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-04",
+      "title": "AI sales launches are moving toward context before action",
+      "signalStrength": "Medium signal, Product Hunt/vendor-heavy",
+      "read": "A quick Product Hunt source rotation shows current AI sales launches clustering around account intelligence, relationship intelligence, and AI-native CRM rather than pure outbound volume. Genrate.ai and Orbb are framed around surfacing timely account and relationship signals; Lightfield is framed around CRM that captures work and updates pipeline context. The caveat is obvious: launch pages are promotional and outcome data is thin. The useful implication is still sharp for Saulius: position GTM agents around better context, controls, and handoff quality before speed; treat 'autonomous outreach' claims as credible only when they show targeting logic, CRM behavior, auditability, and human override.",
+      "links": [
+        {
+          "label": "Product Hunt AI sales tools category",
+          "url": "https://www.producthunt.com/categories/ai-sales-tools"
+        },
+        {
+          "label": "Product Hunt sales products",
+          "url": "https://www.producthunt.com/products?parentTopic=business&topic=sales"
+        },
+        {
+          "label": "Cockpit AI revenue agents launch",
+          "url": "https://www.producthunt.com/products/cockpit-ai"
+        },
+        {
+          "label": "Agent Monitor AI traffic analytics",
+          "url": "https://www.producthunt.com/products/agent-monitor-track-ai-traffic"
+        }
+      ]
+    },
     {
       "date": "2026-06-04",
       "title": "Lithuania is a useful proof market for AI travel and revenue agents",
