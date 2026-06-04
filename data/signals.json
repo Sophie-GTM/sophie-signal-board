@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T11:55:00+03:00",
+  "updatedAt": "2026-06-04T15:40:00+03:00",
   "freshness": "learning cockpit v2",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
@@ -150,6 +150,7 @@
       "signalStrength": "Medium signal, Reddit-heavy and vendor-noisy",
       "tags": ["AI SDR", "GTM"],
       "read": "Fresh operator threads describe the same pattern: AI SDR tools promise faster qualification and follow-up, but weak routing, duplicate CRM logic, inconsistent ownership, and bad context sync can make inbound conversion worse. The tool becomes a stress test for the GTM system underneath it.",
+      "explainLike18": "Imagine a company gets a bunch of people asking to buy. The AI is supposed to sort them and tell sales who to call. But if the CRM is messy, two people may call the same lead, good leads may disappear, and nobody knows who owns the next step. The problem is not just the AI writing emails. It is whether the whole sales machine can stay organized.",
       "whyItMatters": "This gives us sharper buyer language: 'stop qualified leads disappearing between marketing, CRM, AI workflow, and sales ownership.'",
       "noiseCaveat": "Reddit discussions include vendor replies and small samples, so treat it as pain-language signal rather than quantitative proof.",
       "links": [
@@ -173,6 +174,7 @@
       "signalStrength": "Medium signal, launch-page heavy",
       "tags": ["AI SDR", "GTM"],
       "read": "Current AI sales launches cluster around account intelligence, relationship intelligence, AI-native CRM, and revenue agents. The useful pattern is not 'send more messages.' It is 'capture the signal, explain the context, then decide what action is allowed.'",
+      "explainLike18": "A weak AI sales tool just blasts more messages. A useful one first figures out who the company is, why they might care, what happened recently, and what the human salesperson is allowed to do next. Context comes before action because bad action at scale just creates faster embarrassment.",
       "whyItMatters": "OpenClaw/Sophie positioning should lead with inspectable source context, controlled actions, and human approval rather than raw autonomy.",
       "noiseCaveat": "Product Hunt and launch pages are promotional; use them for category direction, not outcome claims.",
       "links": [
@@ -196,6 +198,7 @@
       "signalStrength": "Operating-model correction",
       "tags": ["GTM"],
       "read": "The correct access path for Sophie's X work is the managed browser session already available on the machine, not local CLI tooling. X should be used for live founder/operator and GTM-builder signal discovery while keeping visible account actions approval-gated.",
+      "explainLike18": "I already have the X account open in the normal browser setup on this machine. So I should use that logged-in browser to read what founders and GTM people are saying. But reading is different from acting: posting, replying, liking, following, or DMing can affect reputation, so those need approval.",
       "whyItMatters": "This keeps the learning system practical: use the logged-in browser where the account already lives, but protect the new account from public or reputation-bearing actions.",
       "noiseCaveat": "X can be high-signal and fast-moving, but it is also performative and promotional. Treat individual posts as leads for synthesis, not proof by themselves.",
       "links": [
@@ -211,6 +214,7 @@
       "signalStrength": "Medium signal, PR-heavy but locally relevant",
       "tags": ["Vilnius", "GTM"],
       "read": "KAYAK expanding AI/product work in Lithuania, Outcraft AI building revenue-agent infrastructure from Vilnius, and local AI travel/culture products all support a more credible Lithuania AI ecosystem narrative.",
+      "explainLike18": "Lithuania is not just a place to mention in the footer. If real AI/product companies are growing there, it becomes part of the story: Vilnius can be shown as a serious, compact, tech-aware place where local discovery and AI products make sense. But press releases are not the same as customer demand.",
       "whyItMatters": "For Vilnius Unfolded and local GTM, the angle is trusted, legible, practical local intelligence, not generic hidden-gems tourism.",
       "noiseCaveat": "Much of the source base is company PR, so it supports narrative context more than independent demand proof.",
       "links": [
@@ -234,6 +238,7 @@
       "signalStrength": "Medium signal, vendor-heavy and measurement-noisy",
       "tags": ["GTM"],
       "read": "Buyer discovery is shifting toward ChatGPT, Perplexity, Gemini, and Claude-assisted shortlists. The practical GTM move is not acronym-chasing around GEO. It is making comparison pages, proof points, ICP-specific answers, and third-party context easier for answer engines to retrieve and trust.",
+      "explainLike18": "People are starting to ask AI tools which products to consider instead of only searching Google. If your product is not explained clearly on the web, and nobody trustworthy mentions it, the AI may ignore it. So the job is to create clear proof and comparison pages that an AI answer can understand and cite.",
       "whyItMatters": "This creates an actionable content backlog: public proof, competitor comparisons, structured explanations, and third-party mentions.",
       "noiseCaveat": "AI-search visibility research is still noisy and often vendor-led, so claims need live validation before becoming strategy.",
       "links": [
@@ -257,6 +262,7 @@
       "signalStrength": "Medium signal, technical-community skew",
       "tags": ["GTM"],
       "read": "Agent workflow discussions keep returning to deterministic guardrails, sandboxing, explicit plans, observable outputs, and reversible actions. The best agent story is not that the system does everything. It is that the system works where its behavior can be inspected and constrained.",
+      "explainLike18": "An AI agent is more trustworthy when you can see what it plans to do, limit what it is allowed to touch, undo mistakes, and inspect the result. Saying 'the agent can do everything' sounds exciting, but buyers care more about whether it can do useful work without causing hidden damage.",
       "whyItMatters": "This is the strongest OpenClaw-adjacent GTM frame: visible work, durable memory, controlled actions, and audit-friendly execution.",
       "noiseCaveat": "Technical communities over-index on builder concerns, so buyer-facing proof still needs simpler language and concrete outcomes.",
       "links": [

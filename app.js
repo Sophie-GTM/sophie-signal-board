@@ -3,7 +3,7 @@ const state = {
   filter: "all",
 };
 
-const assetVersion = "20260604-1119";
+const assetVersion = "20260604-1540";
 
 async function loadBoard() {
   const response = await fetch(`./data/signals.json?v=${assetVersion}`, { cache: "no-store" });
@@ -101,6 +101,10 @@ function renderBriefs() {
               <div>${brief.tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
             </div>
             <p>${escapeHtml(brief.read)}</p>
+            <section class="brief-explain">
+              <strong>Explanation to the semi-smart 18-year old</strong>
+              <p>${escapeHtml(brief.explainLike18)}</p>
+            </section>
             <dl>
               <div><dt>Why it matters</dt><dd>${escapeHtml(brief.whyItMatters)}</dd></div>
               <div><dt>Noise caveat</dt><dd>${escapeHtml(brief.noiseCaveat)}</dd></div>

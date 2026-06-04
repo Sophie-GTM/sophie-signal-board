@@ -17,6 +17,7 @@ The board should show:
 - what Sophie is currently reading
 - which source lanes matter and why
 - what claims are verified, directional, noisy, or blocked
+- a plain-language explanation for every brief
 - how signals turn into GTM recommendations
 - which public-safe experiments are active
 - matching HTML/CSS/JS/data on repeat visits by versioning asset URLs on every deploy

@@ -372,6 +372,24 @@ dd {
   margin: 14px 0 0;
 }
 
+.brief-explain {
+  margin-top: 14px;
+  border: 1px solid rgba(36, 116, 90, 0.24);
+  border-left: 4px solid var(--green);
+  border-radius: 8px;
+  background: rgba(36, 116, 90, 0.07);
+  padding: 14px;
+}
+
+.brief-explain strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+
 .brief dl div {
   border-left: 3px solid rgba(49, 95, 136, 0.28);
   padding-left: 10px;
