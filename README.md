@@ -8,6 +8,7 @@ This board is intentionally public-safe:
 - no private messages
 - no sensitive workspace context
 - only evidence-backed signal summaries and source links
+- non-indexable by compliant search crawlers (`noindex` meta + `robots.txt`)
 
 The operating model is simple: read and learn aggressively, act visibly slowly.
 
