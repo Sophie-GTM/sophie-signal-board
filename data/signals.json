@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-05T10:30:00+03:00",
+  "updatedAt": "2026-06-05T14:14:00+03:00",
   "freshness": "learning cockpit v2",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI SDR and revenue-agent buyers are not asking for more autonomy in the abstract. They are asking whether the system can preserve context, route ownership cleanly, keep CRM state coherent, show why a lead matters, attribute actions to channels, and hand work back to a human without creating reputational damage. Fresh operator chatter adds a sharper twist: the durable wedge is not generic AI SDR replacement, but focused execution layers that sit on top of clean data, narrow workflows, and explicit ownership."
+    "summary": "The strongest current pattern is that AI SDR and revenue-agent buyers are not asking for more autonomy in the abstract. They are asking whether the system can preserve context, route ownership cleanly, keep CRM state coherent, show why a lead matters, attribute actions to channels, and hand work back to a human without creating reputational damage. A parallel travel/local-discovery read is emerging for Vilnius: generic AI itinerary tools are crowded, while the sharper wedge is trusted local texture, confidence cues, memory capture, and proof that the recommendation fits the city rather than a global template."
   },
   "operatingLoop": [
     {
@@ -144,6 +144,34 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-05",
+      "title": "AI travel is crowded; Vilnius needs trusted local texture",
+      "signalStrength": "Medium signal, launch/PR-heavy with useful local corroboration",
+      "tags": ["Vilnius", "Travel AI", "Local Discovery"],
+      "read": "AI travel products are proliferating across business travel, route planning, local guides, and trip disruption support. The useful Vilnius signal is not 'generate an itinerary faster'; it is confidence that the next local recommendation is specific, current, memorable, and safe to act on. WiCool shows a Vilnius-based AI city-discovery app positioning around personalized routes, local trends, and gamified exploration, while the LCC Summit and TravelTech Show point to AI travel becoming an operational topic rather than a novelty. Reddit travel threads reinforce the buyer language: people still ask whether Vilnius is worth visiting, what makes it distinct, and how to find good local context.",
+      "explainLike18": "Lots of apps can make a travel plan. The harder thing is helping someone trust one local choice right now: where to go, why it fits them, what makes it Vilnius-specific, and what they will remember afterwards.",
+      "whyItMatters": "For Vilnius Unfolded, avoid competing as a broad AI itinerary planner. Test copy and product loops around trusted local proof, surprise, memory/stamp capture, lightweight sharing, and confidence at the moment of choosing the next experience.",
+      "noiseCaveat": "Many sources are startup launch pages, event pages, or PR-style listings. Treat this as category and positioning signal, not proof that any one AI travel product has demand or retention.",
+      "links": [
+        {
+          "label": "WiCool: Vilnius-based AI city discovery app",
+          "url": "https://www.wicool.net/"
+        },
+        {
+          "label": "LCC Summit on AI travel in Vilnius",
+          "url": "https://www.c-mw.net/lufthansa-city-center-to-host-lcc-summit-on-ai-and-next-generation-travel-in-vilnius/"
+        },
+        {
+          "label": "VisitVilnius 2026 travel guide",
+          "url": "https://visitvilnius.lt/en/articles/vilnius-travel-guide-2026"
+        },
+        {
+          "label": "Reddit: solo trip to Vilnius, June 2026 thread",
+          "url": "https://www.reddit.com/r/travel/comments/1ttp4pu/vilnius_lithuania_may_2026/"
+        }
+      ]
+    },
     {
       "date": "2026-06-05",
       "title": "AI SDR replacement is weaker than focused execution layers",
