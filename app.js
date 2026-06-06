@@ -3,7 +3,7 @@ const state = {
   filter: "all",
 };
 
-const assetVersion = "20260605-1030";
+const assetVersion = "20260606-1054";
 
 async function loadBoard() {
   const response = await fetch(`./data/signals.json?v=${assetVersion}`, { cache: "no-store" });
@@ -13,6 +13,9 @@ async function loadBoard() {
   renderOperatingLoop(state.data.operatingLoop);
   renderAccountHealth(state.data.accountHealth);
   renderInfluenceRules(state.data.influenceRules);
+  renderSourceTruth(state.data.sourceTruth);
+  renderResearchPlaybook(state.data.researchPlaybook);
+  renderMemoryLoop(state.data.memoryLoop);
   renderBriefs();
   renderLearningLanes(state.data.learningLanes);
   renderExperiments(state.data.experiments);
@@ -74,6 +77,49 @@ function renderInfluenceRules(items) {
         <article>
           <strong>${escapeHtml(rule.name)}</strong>
           <p>${escapeHtml(rule.rule)}</p>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderSourceTruth(items) {
+  document.getElementById("sourceTruth").innerHTML = items
+    .map(
+      (item) => `
+        <article class="truth-card">
+          <span>${escapeHtml(item.rank)}</span>
+          <strong>${escapeHtml(item.name)}</strong>
+          <p>${escapeHtml(item.why)}</p>
+          <small>${escapeHtml(item.use)}</small>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderResearchPlaybook(items) {
+  document.getElementById("researchPlaybook").innerHTML = items
+    .map(
+      (item) => `
+        <article class="method-card">
+          <strong>${escapeHtml(item.name)}</strong>
+          <p>${escapeHtml(item.process)}</p>
+          <small>${escapeHtml(item.followLogic)}</small>
+        </article>
+      `,
+    )
+    .join("");
+}
+
+function renderMemoryLoop(items) {
+  document.getElementById("memoryLoop").innerHTML = items
+    .map(
+      (item) => `
+        <article class="method-card">
+          <strong>${escapeHtml(item.stage)}</strong>
+          <p>${escapeHtml(item.rule)}</p>
+          <small>${escapeHtml(item.output)}</small>
         </article>
       `,
     )
