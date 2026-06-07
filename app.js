@@ -3,7 +3,7 @@ const state = {
   filter: "all",
 };
 
-const assetVersion = "20260607-1030";
+const assetVersion = "20260607-1630";
 
 async function loadBoard() {
   const response = await fetch(`./data/signals.json?v=${assetVersion}`, { cache: "no-store" });
