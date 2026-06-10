@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-10T10:30:00+03:00",
+  "updatedAt": "2026-06-10T16:30:00+03:00",
   "freshness": "learning system v3",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI SDR and revenue-agent buyers are not asking for more autonomy in the abstract. They are asking for a reliability audit: whether the system can preserve context, route ownership cleanly, keep CRM state coherent, explain why a lead matters, attribute actions to channels, and hand work back to a human without creating reputational damage. Today's mid-morning scan sharpens the evaluation bar: buyers should ask whether a GTM agent can show source data, metric definitions, identity resolution, real-time freshness, deterministic calculations, audit trails, and CRM-readiness before it acts. The local discovery layer still points toward confidence, memory, local proof, and practical discovery rather than itinerary volume."
+    "summary": "The strongest current pattern is that AI SDR and revenue-agent buyers are not asking for more autonomy in the abstract. They are asking for a reliability audit: whether the system can preserve context, route ownership cleanly, keep CRM state coherent, explain why a lead matters, attribute actions to channels, and hand work back to a human without creating reputational damage. This afternoon's scan adds the human/org layer: the GTM Engineer is being framed less as an AI-outbound operator and more as the person who makes the revenue system legible enough to automate, measure, and govern. The local discovery layer still points toward confidence, memory, local proof, and practical discovery rather than itinerary volume."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,38 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-10",
+      "title": "GTM engineering is becoming the legibility layer for AI revenue work",
+      "signalStrength": "Medium-low signal, fresh X/search discourse plus Reddit corroboration",
+      "tags": [
+        "GTM",
+        "Sales Engineering",
+        "Agent Trust"
+      ],
+      "read": "Fresh X/search results around GTM engineering are converging on a useful role definition: the GTM Engineer is not simply the person who adds AI to sales. The role is being described as the operator who makes revenue workflows legible enough to automate: clean inputs, system ownership, workflow definitions, attribution, CRM write-back, measurement, and human approval paths. Reddit operator threads add the grounded version: AI SDRs and outbound agents disappoint when teams skip KPIs, Salesforce/Sales Navigator access, sales-engineering handoff, or a proven human playbook. The synthesis is that GTM engineering is becoming the organizational answer to the same technical problem as agent traceability.",
+      "explainLike18": "Before AI can help a sales team, someone has to make the sales process understandable. Who owns the data? What counts as a good lead? When should a human step in? Where does the result get saved? A GTM engineer is valuable when they can answer those questions and wire the system, not just prompt an AI tool.",
+      "whyItMatters": "For Saulius's GTM work, sell the operating layer before the agent. Buyer-facing wording: 'Make the revenue workflow legible before you automate it.' Discovery prompt: 'Which part of your GTM motion is not yet clear enough to hand to software: source data, owner, definition, approval, measurement, or CRM write-back?' This makes the traceability audit easier to position as GTM engineering work, not only AI governance.",
+      "noiseCaveat": "X results around GTM engineering are highly self-promotional and role-definition posts often serve creator or hiring funnels. Reddit examples are anecdotal and frustration-skewed. Treat this as current language and positioning signal, not proof that the role has a settled market definition.",
+      "links": [
+        {
+          "label": "X article: How to Hire a GTM Engineer in 2026",
+          "url": "https://x.com/itsalexvacca/article/2058954669297422713"
+        },
+        {
+          "label": "X article: The Rise of GTM Engineering",
+          "url": "https://x.com/artur_wala/article/2062546793519264223"
+        },
+        {
+          "label": "Reddit: AI SDR prospecting operational gaps",
+          "url": "https://www.reddit.com/r/sales/comments/1r7msnb/best_ai_sdr_or_ai_agent_for_prospecting/"
+        },
+        {
+          "label": "Reddit: GTM Engineer role discussion",
+          "url": "https://www.reddit.com/r/SaaS/comments/1thku9j/when_anyone_can_build_who_wins/"
+        }
+      ]
+    },
     {
       "date": "2026-06-10",
       "title": "GTM agent evaluation is hardening around traceability before action",
