@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-11T16:30:00+03:00",
+  "updatedAt": "2026-06-12T17:44:00+03:00",
   "freshness": "learning system v3",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI SDR and revenue-agent buyers are not asking for more autonomy in the abstract. They are asking for a reliability audit: whether the system can preserve context, route ownership cleanly, keep CRM state coherent, explain why a lead matters, attribute actions to channels, and hand work back to a human without creating reputational damage. Today's added signal is that 'agent harness' language is moving this from niche workflow advice into mainstream enterprise architecture: approvals, memory, observability, isolation, task state, and handoffs are becoming the product surface buyers should inspect before trusting agents with real execution. The local discovery layer still points toward confidence, memory, local proof, and practical discovery rather than itinerary volume."
+    "summary": "The strongest current pattern is that AI SDR and revenue-agent buyers are not asking for more autonomy in the abstract. They are asking for a reliability audit: whether the system can preserve context, route ownership cleanly, keep CRM state coherent, explain why a lead matters, attribute actions to channels, and hand work back to a human without creating reputational damage. Today's added signal is that Product Hunt's current AI sales surface is clustering around GTM orchestration, CRM/task workflow alignment, and intent-triggered action rather than generic AI SDR copy. The local discovery layer still points toward confidence, memory, local proof, and practical discovery rather than itinerary volume."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,38 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-12",
+      "title": "AI sales tools are moving toward embedded GTM orchestration",
+      "signalStrength": "Medium-low signal, current Product Hunt category data plus launch/forum corroboration",
+      "tags": [
+        "GTM",
+        "AI SDR",
+        "Sales Engineering"
+      ],
+      "read": "Product Hunt's AI sales category, updated June 12, now frames the space around finding, researching, qualifying, personalizing, and automating follow-ups, but the more useful pattern is in the recent-launch and forum language: Elentaria sells GTM diagnosis through execution, Octolane sells a self-driving CRM you can talk to, Sherloq sells LinkedIn intent timing, Tooling Studio MCP talks about keeping CRM and task workflows aligned with Gmail and Google Workspace, and AI Context Flow names the operator pain of becoming a context delivery system between AI tools. The category is drifting from 'send more outbound' toward embedded GTM orchestration inside existing work surfaces.",
+      "explainLike18": "The better AI sales tools are not just trying to write more emails. They are trying to sit where the work already happens, remember the context, spot the right timing, keep the CRM updated, and tell the human what should happen next.",
+      "whyItMatters": "For Saulius's GTM work, position agent value around orchestration inside the real workflow, not standalone automation. Buyer-facing wording: 'Do not buy another AI sender. Inspect whether it keeps your GTM context, CRM state, task ownership, and timing signals aligned.' Discovery prompt: 'Where does your revenue workflow currently split apart: inbox, meetings, CRM notes, LinkedIn signals, task ownership, or follow-up timing?' Product implication: demo the agent embedded in the buyer's daily surface with context preservation and CRM/task alignment visible.",
+      "noiseCaveat": "Product Hunt is launch-driven and vendor-promotional, and forum activity can be builder-led. Treat this as category-language and positioning signal, not proof of buyer adoption or product performance.",
+      "links": [
+        {
+          "label": "Product Hunt: AI sales tools, updated June 12 2026",
+          "url": "https://www.producthunt.com/categories/ai-sales-tools"
+        },
+        {
+          "label": "Product Hunt: AI agents category",
+          "url": "https://www.producthunt.com/categories/ai-agents"
+        },
+        {
+          "label": "Product Hunt: Tooling Studio MCP forum discussion",
+          "url": "https://www.producthunt.com/p/tooling-studio/tooling-studio-mcp-let-ai-work-inside-your-crm-task-workflows"
+        },
+        {
+          "label": "Product Hunt: AI Context Flow forum discussion",
+          "url": "https://www.producthunt.com/p/ai-context-flow/are-you-a-product-builder-or-a-messenger-between-different-ais"
+        }
+      ]
+    },
     {
       "date": "2026-06-11",
       "title": "Agent harnesses are turning control into the product surface",
