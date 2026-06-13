@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T10:30:00+03:00",
+  "updatedAt": "2026-06-13T11:00:00+03:00",
   "freshness": "learning system v3",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
@@ -1111,13 +1111,13 @@
       "type": "X",
       "name": "Founder/operator and GTM-builder graph",
       "why": "Fastest surface for language, launches, tactics, and emerging influence patterns when access is healthy.",
-      "posture": "Use managed browser session for reading; build source graph in small batches."
+      "posture": "Blocked for CLI auth right now; use only safe managed-browser reading when available, with no visible actions."
     },
     {
       "type": "X",
       "name": "AI labs, agent builders, devtool accounts",
       "why": "Track platform shifts that reshape credible GTM claims around agents, controls, workflows, and model capability.",
-      "posture": "Use managed browser session; avoid rate-limit and visible-action risk."
+      "posture": "Blocked for CLI auth right now; keep account-health risk low and avoid rapid profile hopping or follows."
     },
     {
       "type": "Local",
@@ -1127,9 +1127,15 @@
     },
     {
       "type": "Web",
-      "name": "HN, Product Hunt, newsletters, launch pages, reports",
-      "why": "Category framing, launch language, technical skepticism, and secondary validation outside social feeds.",
-      "posture": "Useful but promotional; require proof before adopting claims."
+      "name": "Hacker News and technical operator threads",
+      "why": "Developer skepticism, agent workflow failure modes, permission/audit concerns, and early signs of technical behavior change.",
+      "posture": "High caveat value; use for failure modes and proof standards, not as buyer-demand proof."
+    },
+    {
+      "type": "Web",
+      "name": "Product Hunt, newsletters, launch pages, reports",
+      "why": "Category framing, launch language, role labels, and vendor claims that show how the market is being packaged.",
+      "posture": "Promotional by default; use for language and watchlists, then corroborate with operator pain."
     }
   ]
 }
