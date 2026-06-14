@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-14T13:15:04+03:00",
+  "updatedAt": "2026-06-14T16:30:00+03:00",
   "freshness": "learning system v3",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that agent value is getting pulled toward specific workflow ownership: concrete vertical jobs, existing buyer spend, proof of timing, and operator control. Today's added signal combines Product Hunt launch language, a vendor-led agent startup map, HN skepticism, and Reddit GTM-operator comments. The read is directional: horizontal agents and generic AI SDR promises are crowded, while task-specific agents with visible context, distribution, and service-shaped value are easier to defend."
+    "summary": "The strongest current pattern is that AI GTM and agent value is moving away from broad autonomy claims and toward context-rich, inspectable workflows. Today's added signal combines a fresh Codex/OpenFlow workflow artifact, GTM Engineering survey language, AI SDR buyer-guide benchmarks, and Reddit operator complaints about AI outbound. The useful read: buyers and operators are not asking for more autonomous noise; they are asking for signal quality, workflow ownership, throttling, auditability, and human control where reputation or revenue is at stake."
   },
   "sourceTruth": [
     {
@@ -97,8 +97,8 @@
   "accountHealth": [
     {
       "account": "X / @Sophiem1th",
-      "state": "reading",
-      "status": "Use the managed browser session for live reading, source discovery, and careful account-health checks. Keep the account fragile and reputation-safe: no public posts, replies, likes, bookmarks, follows, quote posts, or DMs without explicit approval."
+      "state": "blocked for API reading",
+      "status": "xurl is not currently usable: no apps are registered and search returns 401 Unauthorized. Until auth or managed-browser access is available, treat X as blocked for live research. Do not post, reply, like, bookmark, follow, quote, or DM without explicit approval."
     },
     {
       "account": "Reddit",
@@ -214,6 +214,43 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-14",
+      "title": "Context and control are beating autonomous GTM noise",
+      "signalStrength": "Medium signal, current operator artifact plus vendor benchmarks and GTM survey language",
+      "tags": [
+        "GTM",
+        "AI SDR",
+        "Agent Trust",
+        "Sales Engineering"
+      ],
+      "read": "Fresh agent-workflow discussion is converging with GTM-engineering and AI-SDR buyer language. A new OpenFlow CLI post in r/codex frames the agent problem as workflows that drift, waste tokens, and are hard to edit, maintain, or reuse unless steps are scripted and rerunnable. The GTM Engineering report positions the role around building revenue infrastructure, while vendor buyer guides now separate signal-driven orchestration from autonomous volume and cite large churn risk for poorly matched AI SDR deployments. Reddit sales-operator language is blunter: AI helps with context, research, timing, first-pass drafts, and light support, but high-volume autonomous outreach damages deliverability and trust.",
+      "explainLike18": "The market is not saying “let AI sell for me.” It is saying “give my team better timing, cleaner context, repeatable workflows, and proof that nothing embarrassing or spammy happens without control.”",
+      "whyItMatters": "For Saulius's GTM and product work, position AI agents as controlled workflow infrastructure before positioning them as autonomous labor. Buyer-facing wording: “Use AI where it improves context, timing, preparation, and repeatability; keep humans in charge of reputation-bearing conversations.” Discovery prompt: “Where does your current workflow fail because context is stale, handoffs are invisible, or volume incentives override judgment?” Product implication: make the workflow visible: inputs, signal definitions, approvals, logs, throttle rules, and recovery paths.",
+      "noiseCaveat": "Reddit evidence is anecdotal and sometimes self-promotional. AI SDR buyer guides are vendor-led and should be treated as evaluation-language sources, not neutral market proof. The GTM Engineering report is useful category data but includes sponsored framing. X live research is currently blocked by auth, so this scan does not include authenticated X signal.",
+      "links": [
+        {
+          "label": "Reddit r/codex: OpenFlow CLI workflow post",
+          "url": "https://www.reddit.com/r/codex/comments/1txr7nf/i_built_an_opensource_dynamic_workflows_tool/"
+        },
+        {
+          "label": "HN: OpenFlow CLI discussion",
+          "url": "https://news.ycombinator.com/item?id=48415951"
+        },
+        {
+          "label": "GTM Strategist: 2026 State of GTM Engineering",
+          "url": "https://knowledge.gtmstrategist.com/p/the-2026-state-of-gtm-engineering"
+        },
+        {
+          "label": "Unify: AI SDR buyer guide 2026",
+          "url": "https://www.unifygtm.com/explore/best-ai-sdr-software-buyers-guide"
+        },
+        {
+          "label": "Reddit r/salestechniques: AI spam bot thread",
+          "url": "https://www.reddit.com/r/salestechniques/comments/1qc0njn/how_to_sell_in_2026_without_turning_into_an_ai/"
+        }
+      ]
+    },
     {
       "date": "2026-06-13",
       "title": "Agent demand is concentrating around specific jobs, not generic autonomy",
