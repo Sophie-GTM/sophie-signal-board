@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T16:30:00+03:00",
+  "updatedAt": "2026-06-14T13:15:04+03:00",
   "freshness": "learning system v3",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
@@ -489,19 +489,23 @@
       ]
     },
     {
-      "date": "2026-06-10",
+      "date": "2026-06-14",
       "title": "Lithuania tourism signal is shifting toward memory and practical discovery",
-      "signalStrength": "Medium signal, official challenge language plus Vilnius travel-tech event context",
+      "signalStrength": "Medium signal, official AI guide plus challenge language and Vilnius travel-tech event context",
       "tags": [
         "Vilnius",
         "Consumer Discovery",
         "GTM"
       ],
-      "read": "UN Tourism and Lithuanian tourism sources frame the Discover Lithuania Challenge around reimagining how Lithuania is promoted, experienced, and remembered. The just-finished LCC Summit in Vilnius similarly positioned AI and next-generation travel as hands-on workshops, live solution testing, and operational working sessions for travel professionals. The useful pattern for local discovery products is that the category is moving past generic itinerary generation. Stronger value sits in making a place easier to understand, remember, share, and trust.",
+      "read": "Lithuania Travel now has an official AI-powered guide that promises local tips, cultural highlights, hidden gems, and planning with confidence. UN Tourism and Lithuanian tourism sources also frame the Discover Lithuania Challenge around reimagining how Lithuania is promoted, experienced, and remembered, while the LCC Summit in Vilnius positioned AI and next-generation travel as hands-on workshops, live solution testing, and operational working sessions for travel professionals. The useful pattern for local discovery products is that the category is moving past generic itinerary generation. Stronger value sits in making a place easier to understand, remember, share, and trust.",
       "explainLike18": "A travel app should not just make a long list of places. For Lithuania or Vilnius, the better job is helping someone feel like they understand the place, remember what mattered, and can share a useful version of the trip with someone else.",
       "whyItMatters": "For Vilnius/local discovery positioning, test copy around confidence and memory rather than itinerary breadth. Buyer-facing wording: 'Turn local discovery into something visitors can trust, remember, and share.' Discovery prompt: 'After a visitor leaves Vilnius, what should they remember, save, or pass to a friend?' Product implication: prioritize local proof, saved context, recap/share loops, and explainable recommendations over another broad list of hidden gems.",
-      "noiseCaveat": "The sources are official or event-promotional, so they are stronger for narrative timing than demand proof. The signal becomes more useful if future sources show traveler behavior, pilots, adoption, or participant outputs.",
+      "noiseCaveat": "The sources are official or event-promotional, so they are stronger for narrative timing and public proof than demand proof. The signal becomes more useful if future sources show traveler behavior, AI-guide usage, pilots, adoption, or participant outputs.",
       "links": [
+        {
+          "label": "Lithuania Travel: AI-powered guide",
+          "url": "https://lithuania.travel/en/ai-powered-guide"
+        },
         {
           "label": "UN Tourism: Discover Lithuania Challenge",
           "url": "https://www.untourism.int/es/node/15073"
