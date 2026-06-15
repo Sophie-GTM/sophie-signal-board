@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-14T16:30:00+03:00",
-  "freshness": "learning system v3",
+  "updatedAt": "2026-06-15T10:55:00+03:00",
+  "freshness": "learning system v4",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI GTM and agent value is moving away from broad autonomy claims and toward context-rich, inspectable workflows. Today's added signal combines a fresh Codex/OpenFlow workflow artifact, GTM Engineering survey language, AI SDR buyer-guide benchmarks, and Reddit operator complaints about AI outbound. The useful read: buyers and operators are not asking for more autonomous noise; they are asking for signal quality, workflow ownership, throttling, auditability, and human control where reputation or revenue is at stake."
+    "summary": "The strongest current pattern is that AI GTM and agent value is moving away from broad autonomy claims and toward context-rich, inspectable workflows. Today's added operational signal is Google's June 18, 2026 Gemini CLI transition for free, individual, Pro, and Ultra users. The useful read: agent workflows now have platform-dependency risk as well as autonomy risk, so serious GTM and product work should make tool ownership, migration paths, access tiers, logs, and fallback routes visible before a workflow becomes business-critical."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,34 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-15",
+      "title": "Agent workflows now need migration and access-tier checks",
+      "signalStrength": "High operational signal from official Google source, with local install relevance",
+      "tags": [
+        "Agent Trust",
+        "Sales Engineering",
+        "GTM"
+      ],
+      "read": "Google's official Developers Blog says Gemini CLI and Gemini Code Assist IDE extensions will stop serving requests on June 18, 2026 for Google AI Pro, Ultra, and free/individual users, while enterprise, Google Cloud, and paid API-key paths remain supported. The local workspace has Gemini CLI installed at /opt/homebrew/bin/gemini, version 0.43.0, so this is not abstract category news. The broader agent-market read is that workflow reliability is now partly an access-tier and platform-continuity problem: a useful CLI, extension, or coding-agent habit can become brittle if the auth model, product surface, or backend is redirected on a short timeline.",
+      "explainLike18": "If a team builds its daily workflow around an AI tool, it also needs to know what happens when that tool changes plans, pricing, login rules, or supported tiers. The agent is only reliable if the access path is reliable too.",
+      "whyItMatters": "For Saulius's GTM and product work, treat agent-workflow audits as a buyer-facing credibility move. Buyer-facing wording: 'Before we automate a workflow, we map the tool owner, access tier, migration path, logs, approval boundary, and fallback route.' Discovery prompt: 'Which AI tools are now part of your daily revenue or product workflow, and what would break if one changed access tiers this week?' Product implication: expose dependency checks and fallback plans wherever an agent depends on third-party CLIs, APIs, browser sessions, or account-scoped auth.",
+      "noiseCaveat": "The cutoff itself is official and time-sensitive. GitHub/HN/community reaction is useful for developer-friction language, but should not be treated as neutral adoption data. X research remains blocked by xurl auth, so this scan does not include authenticated X signal.",
+      "links": [
+        {
+          "label": "Google Developers Blog: Gemini CLI to Antigravity CLI transition",
+          "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/"
+        },
+        {
+          "label": "GitHub discussion: Gemini CLI transition announcement",
+          "url": "https://github.com/google-gemini/gemini-cli/discussions/27274"
+        },
+        {
+          "label": "HN discussion: Gemini CLI transition",
+          "url": "https://news.ycombinator.com/item?id=48196867"
+        }
+      ]
+    },
     {
       "date": "2026-06-14",
       "title": "Context and control are beating autonomous GTM noise",
@@ -1160,6 +1188,7 @@
     }
   ],
   "nextActions": [
+    "Audit local Gemini CLI and Gemini Code Assist dependencies before June 18, 2026; decide whether Antigravity CLI, enterprise/API-key Gemini CLI, or another fallback should own each workflow.",
     "For Lithuania/local-agent positioning, test \"operator judgment with inherited context\" against generic \"AI employees\" language in e-commerce and revenue workflows.",
     "Use managed browser sessions for Reddit and X live reading; keep visible/reputation actions approval-gated.",
     "Build a 20-source candidate graph for AI SDR, GTM engineering, founder/operator language, and local Lithuania signals.",
