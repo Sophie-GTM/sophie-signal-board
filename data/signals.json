@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-15T19:45:00+03:00",
+  "updatedAt": "2026-06-16T08:15:00+03:00",
   "freshness": "learning system v4",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI GTM and agent value is moving away from broad autonomy claims and toward context-rich, inspectable workflows. Today's newer GTM signal is that Outreach is adding MCP connectors, admin-scoped access, private connectors, approved knowledge grounding, source citations, web search, and revenue-agent reporting inside a mainstream sales engagement suite. The useful read: agent trust is becoming a control-surface and system-of-record problem, not just a prompt-quality problem."
+    "summary": "The strongest current pattern is that AI GTM and agent value is moving away from broad autonomy claims and toward context-rich, inspectable workflows. The newest market signal is that Salesforce signed a definitive agreement to acquire Fin for about $3.6B while HubSpot's remote MCP server is already generally available for permission-aware CRM access. The useful read: agent trust is becoming a CRM control-plane problem, spanning owned agents, external MCP access, permissions, source context, logs, and measurable outcomes."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,35 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-16",
+      "title": "CRM vendors are buying or exposing the agent control plane",
+      "signalStrength": "High category-timing signal from official Salesforce M&A plus official HubSpot MCP release; buyer-demand proof still needs operator corroboration",
+      "tags": [
+        "GTM",
+        "Agent Trust",
+        "Sales Engineering",
+        "CRM"
+      ],
+      "read": "Salesforce announced on June 15, 2026 that it signed a definitive agreement to acquire Fin, formerly Intercom, for approximately $3.6B. Fin is positioned as a customer agent company for multi-channel service work. In parallel, HubSpot's official developer changelog says its remote MCP server is generally available for all HubSpot accounts, adding write capabilities, activity history, marketing content objects, and organizational context for MCP-compatible clients. Combined with Outreach's June MCP Client release, the pattern is no longer just AI startups pitching agents. Incumbent CRM and engagement platforms are buying agent execution and exposing permission-aware CRM/tool access as product surfaces.",
+      "explainLike18": "The big CRM platforms are not only adding chatbots. They are either buying agent products or opening controlled access so agents can read and write CRM data safely.",
+      "whyItMatters": "For Saulius's GTM and product work, position agent infrastructure against the question buyers will increasingly ask: how does this agent connect to my system of record without creating an ungoverned mess? Buyer-facing wording: 'Useful agents need a control plane around CRM access: permissions, approved actions, context sources, logs, and measurable outcomes.' Discovery prompt: 'Which CRM objects should an agent read, which should it write, who approves risky actions, and where will the evidence live?' Product implication: make CRM/MCP access boundaries visible before autonomy claims.",
+      "noiseCaveat": "Salesforce and HubSpot sources are official but strategic/vendor-authored. The Salesforce deal is category-timing evidence, not proof that every buyer wants autonomous agents now. HubSpot MCP GA proves platform availability, not adoption quality. Reddit/HN/Product Hunt results mostly reinforced prior control-surface reads and remain noisy. X authenticated research remains blocked by xurl auth in this environment.",
+      "links": [
+        {
+          "label": "Salesforce press release: definitive agreement to acquire Fin",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/"
+        },
+        {
+          "label": "HubSpot developer changelog: remote MCP server generally available",
+          "url": "https://developers.hubspot.com/changelog/author/jon-mclaren"
+        },
+        {
+          "label": "Outreach June 2026 release notes: MCP Client and governance surfaces",
+          "url": "https://support.outreach.io/support/solutions/articles/159000432165-outreach-product-release-notes-june-2026"
+        }
+      ]
+    },
     {
       "date": "2026-06-15",
       "title": "MCP is moving into the sales engagement control layer",
@@ -1254,6 +1283,7 @@
     }
   ],
   "nextActions": [
+    "Track incumbent CRM agent moves as category-timing evidence: Salesforce owning Fin-style service agents, HubSpot exposing permission-aware MCP access, and Outreach putting MCP inside sales engagement workflows.",
     "Add MCP/connectors to AI SDR and revenue-agent evaluation: allowed systems, admin scopes, private connectors, cited sources, action permissions, logs, and outcome reporting.",
     "Audit local Gemini CLI and Gemini Code Assist dependencies before June 18, 2026; decide whether Antigravity CLI, enterprise/API-key Gemini CLI, or another fallback should own each workflow.",
     "For Lithuania/local-agent positioning, test \"operator judgment with inherited context\" against generic \"AI employees\" language in e-commerce and revenue workflows.",
