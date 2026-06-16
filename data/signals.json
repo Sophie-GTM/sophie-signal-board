@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-16T16:30:00+03:00",
+  "updatedAt": "2026-06-16T20:25:00+03:00",
   "freshness": "learning system v5",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI GTM and agent value is moving away from broad autonomy claims and toward context-rich, inspectable workflows. The afternoon scan adds a sharper packaging signal: vendors are now selling GTM context layers and MCP access as the substrate for agents, while operator threads still worry about outbound QA before anything reaches prospects. The buyer question is shifting from 'can the agent act?' to 'what context layer, source, permission, review path, and evidence trail govern the action?'"
+    "summary": "The strongest current pattern is that AI agent value is splitting into two credible lanes: governed context/action layers for GTM, and domain-specific service operations where fragmented systems create obvious pain. The evening scan adds a local/travel-adjacent read: travel AI is less interesting as generic itinerary generation and more credible when it handles operational bottlenecks, local confidence, visitor-flow intelligence, and human review around reputation-bearing actions."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,39 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-16",
+      "title": "Travel AI is more credible when it owns service friction, not itinerary breadth",
+      "signalStrength": "Medium-low signal from YC company pages, Product Hunt launch rankings, an official Lithuania tourism forum page, and Reddit operator language; useful for positioning, not adoption proof",
+      "tags": [
+        "Vilnius",
+        "Travel AI",
+        "Consumer Discovery",
+        "Agent Trust"
+      ],
+      "read": "The evening scan found a useful local/travel refinement. YC's travel company directory now includes AI-native travel service operations such as Humoniq for travel and transport BPO and Riviera for hotel phone reception, both aimed at high-friction service work rather than trip inspiration. Lithuania's January 2026 International Tourism Forum framed AI and data-driven solutions around tourist flows, smart payments, visitor experiences, and resilient tourism ecosystems. Product Hunt's June leaderboard is still full of concrete-job agents, including fundraising, GTM execution, store operations, ambient memory, and business-data MCP access. Reddit RevOps language adds a relevant control caveat: teams want tightly scoped AI connected to CRM, enrichment, product usage, and trusted sources, with approval before implementation or outbound action.",
+      "explainLike18": "The stronger travel-AI pitch is not another broad planner that lists places. It is an agent that removes a painful service bottleneck, uses trusted local context, shows where its recommendation came from, and pauses before doing anything public, expensive, or reputation-sensitive.",
+      "whyItMatters": "For Saulius's local/travel and agent GTM work, test narratives around service friction and trusted local operating context before generic itinerary breadth. Buyer-facing wording: 'Use AI where travel breaks: unanswered calls, fragmented booking systems, visitor uncertainty, local proof, and follow-through after discovery.' Discovery prompt: 'Which travel moment creates the most uncertainty or labor today: planning, phone/email handling, payment, local context, in-destination decisions, or post-trip memory and sharing?' Product implication: show specific workflow ownership, trusted sources, review gates, and a saved/shareable memory layer.",
+      "noiseCaveat": "YC pages and Product Hunt are category and launch artifacts, not neutral demand proof. Lithuania ministry/forum sources are official and useful for narrative timing, but promotional. Reddit is anecdotal and vendor-contaminated in places, useful mainly for operator language and control concerns. No account-affecting Reddit or X actions were taken.",
+      "links": [
+        {
+          "label": "YC: travel startups directory, including Humoniq and Riviera",
+          "url": "https://www.ycombinator.com/companies/industry/travel"
+        },
+        {
+          "label": "Lithuania Ministry: International Tourism Forum in Vilnius, 2026 Travel Trends and AI Solutions",
+          "url": "https://eimin.lrv.lt/en/structure-and-contacts/news-1/international-tourism-forum-in-vilnius-2026-travel-trends-and-ai-solutions-cR7y/"
+        },
+        {
+          "label": "Product Hunt: Best of Product Hunt, week of June 1 2026",
+          "url": "https://www.producthunt.com/leaderboard/weekly/2026/23"
+        },
+        {
+          "label": "Reddit r/revops: who is actually using AI for RevOps beyond drafting emails",
+          "url": "https://www.reddit.com/r/revops/comments/1s5l63o/who_is_actually_using_ai_for_revops_and_not_just/"
+        }
+      ]
+    },
     {
       "date": "2026-06-16",
       "title": "GTM agents now need a context-layer story",
@@ -1347,6 +1380,7 @@
     }
   ],
   "nextActions": [
+    "For local/travel agent positioning, test service-friction workflows first: hotel/visitor support, local context, tourist-flow insight, payments, memory/share loops, and explicit review gates.",
     "Add context-layer proof to GTM agent demos: source freshness, lineage, permissions, credit/cost exposure, review gate, and what changed after the run.",
     "Turn the agent-skills signal into a reusable evaluation frame: named skill, source-backed context, allowed tools, approval gates, credential boundary, run log, and rollback/fallback path.",
     "Track incumbent CRM agent moves as category-timing evidence: Salesforce owning Fin-style service agents, HubSpot exposing permission-aware MCP access, and Outreach putting MCP inside sales engagement workflows.",
