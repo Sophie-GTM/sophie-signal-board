@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-17T10:30:00+03:00",
-  "freshness": "learning system v6",
+  "updatedAt": "2026-06-17T16:30:00+03:00",
+  "freshness": "learning system v7",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI agent value is splitting into two credible lanes: governed context/action layers for GTM, and domain-specific service operations where fragmented systems create obvious pain. The June 17 scan adds a buyer-language refinement: AI SDR disappointment is often framed as meeting-quality drag, poor-fit routing, reply-handling debt, and edge-case risk, not only bad copy. Agent packaging inside work surfaces only becomes credible when the agent inherits visible source-of-truth context, definitions, permissions, review gates, and handoff rules before it acts."
+    "summary": "The strongest current pattern is that AI agent value is splitting into two credible lanes: governed context/action layers for GTM, and domain-specific service operations where fragmented systems create obvious pain. The June 17 afternoon scan adds a packaging refinement: agent reliability is increasingly framed as materialized work context, not just better prompts. Credible agent products need durable specs, state, permissions, review gates, handoff rules, and workspace boundaries before they act across real systems."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,43 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-17",
+      "title": "Agent reliability is becoming a work-context problem",
+      "signalStrength": "Medium-low technical/operator signal from HN, Reddit, and launch/category artifacts; useful for positioning and demo design, not buyer-demand proof",
+      "tags": [
+        "GTM",
+        "Agent Trust",
+        "Sales Engineering",
+        "Workflow"
+      ],
+      "read": "The 16:30 Vilnius scan reinforced a practical agent-market shift: reliability language is moving away from \"prompt it better\" and toward materialized workflow context. HN operators described spec-driven work where requirements, subtasks, and restartable state are written down before agents execute. LocalLLaMA threads keep pushing the same idea from a systems angle: companies want agents, skills, crons, memory, multitenancy, and workspace separation, but weak agent definitions and state handling make adoption brittle. Product Hunt's June 2026 AI-agent pages still package agents as digital teammates that work inside existing surfaces, including Slack, Teams, Telegram, and user workflows. The useful read: the agent category is being sold through autonomy, but trust is being earned through durable context and control surfaces.",
+      "explainLike18": "A useful agent should not rely on one giant chat message and hope it remembers everything. It needs a written job, clear boundaries, saved state, permission rules, and a way for a human to review what happened. That is what makes it feel like software instead of a lucky conversation.",
+      "whyItMatters": "For Saulius's GTM work, show the operating layer before selling autonomy. Buyer-facing wording: 'The agent does not just answer a prompt. It inherits the team's specs, source-of-truth files, workspace boundaries, permissions, review gates, and handoff rules, then leaves an inspectable trail.' Discovery prompt: 'Where does agent work fail today because context, ownership, or permission boundaries disappear between sessions?' Demo implication: make the spec/state/review surface visible before the agent takes action.",
+      "noiseCaveat": "HN and LocalLLaMA are technical-community signals and over-index on builder pain. Product Hunt is promotional and launch-biased. X authenticated research remains blocked because xurl has no registered apps. No account-affecting actions were taken.",
+      "links": [
+        {
+          "label": "HN: Ask HN AI dev stack and spec-driven workflow",
+          "url": "https://news.ycombinator.com/item?id=48413629"
+        },
+        {
+          "label": "Reddit r/LocalLLaMA: multitenancy, agents, skills, crons, and workspace separation",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1u21lky/why_are_there_so_few_tools_with_multitenancy_in/"
+        },
+        {
+          "label": "Product Hunt: Novu Connect, agents in user work surfaces",
+          "url": "https://www.producthunt.com/leaderboard/daily/2026/6/15"
+        },
+        {
+          "label": "Product Hunt: AI agents category language",
+          "url": "https://www.producthunt.com/categories/ai-agents"
+        },
+        {
+          "label": "Reddit r/LocalLLaMA: agent workflows as stateful runtime",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rtnzmi/whats_the_hardest_part_about_building_ai_agents/"
+        }
+      ]
+    },
     {
       "date": "2026-06-17",
       "title": "AI SDR failure is meeting-quality drag, not just bad copy",
@@ -1454,6 +1491,7 @@
     }
   ],
   "nextActions": [
+    "Make agent demos show the work-context layer first: written job/spec, source-of-truth files, saved state, workspace boundary, permissions, review gate, handoff rule, and run log.",
     "Convert AI SDR evaluation from volume metrics to meeting-quality controls: fit proof, account priority, verified trigger, reply escalation, handoff context, CRM evidence, and feedback loops.",
     "For local/travel agent positioning, test service-friction workflows first: hotel/visitor support, local context, tourist-flow insight, payments, memory/share loops, and explicit review gates.",
     "Add context-layer proof to GTM agent demos: source freshness, lineage, permissions, credit/cost exposure, review gate, and what changed after the run.",
