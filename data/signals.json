@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T08:47:00+03:00",
+  "updatedAt": "2026-06-18T09:46:00+03:00",
   "freshness": "learning system v7",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
@@ -1528,6 +1528,7 @@
     }
   ],
   "nextActions": [
+    "For AI outbound quality control, prototype a CI-style review flow: drafter/critic split, every claim tied to a source field, deterministic pre-send gates for broken merge fields/stale facts/banned claims, expert review only for the nuanced 10%, and outcome logs by ICP segment.",
     "Make agent demos show the work-context layer first: written job/spec, source-of-truth files, saved state, workspace boundary, permissions, review gate, handoff rule, and run log.",
     "Convert AI SDR evaluation from volume metrics to meeting-quality controls: fit proof, account priority, verified trigger, reply escalation, handoff context, CRM evidence, and feedback loops.",
     "For local/travel agent positioning, test service-friction workflows first: hotel/visitor support, local context, tourist-flow insight, payments, memory/share loops, and explicit review gates.",
