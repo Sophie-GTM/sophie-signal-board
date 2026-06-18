@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-18T10:31:00+03:00",
+  "updatedAt": "2026-06-18T11:46:00+03:00",
   "freshness": "learning system v7",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI agent value is splitting into two credible lanes: governed context/action layers for GTM, and domain-specific service operations where fragmented systems create obvious pain. The June 18 scans add two trust/packaging refinements: buyer-facing AI language is becoming a liability when it leads the message, and agent rollouts need adoption instrumentation before teams can claim business impact. Credible positioning should lead with outcome, proof, control surface, usage evidence, and process adherence, then explain the AI only where it reduces risk or effort."
+    "summary": "The strongest current pattern is that AI agent value is splitting into two credible lanes: governed context/action layers for GTM, and domain-specific service operations where fragmented systems create obvious pain. The June 18 scans add three refinements: buyer-facing AI language is becoming a liability when it leads the message, agent rollouts need adoption instrumentation before teams can claim business impact, and local/travel discovery should sell confidence, meaning, memory, and local proof instead of generic itinerary breadth."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,39 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-18",
+      "title": "Vilnius travel discovery should sell local proof and memory",
+      "signalStrength": "Medium-low local/source-market signal from official Go Vilnius pages, Startup Lithuania, and a travel-tech summit page; useful for product positioning and tester prompts, not consumer conversion proof",
+      "tags": [
+        "Vilnius",
+        "Travel",
+        "Consumer Discovery",
+        "Local Proof"
+      ],
+      "read": "The local/Vilnius scan points to a clearer travel-discovery wedge than generic itinerary planning. Go Vilnius is explicitly promoting 'Meet a local' as a free way to see hidden spots, genuine stories, and city life through local eyes. Startup Lithuania's Discover Lithuania Challenge frames the tourism opportunity around meaning, wellness, nature, emotional connection, and how Lithuania is promoted, experienced, and remembered. Go Vilnius' LCC Summit page adds the travel-industry side: more than 100 travel professionals met in Vilnius around AI, travel technology, live solution testing, startup connections, and operational use cases. The useful read: a local app should prove why a suggestion is locally credible and worth remembering, not just generate another route.",
+      "explainLike18": "A tourist does not need a longer list of places. They need confidence that a recommendation is real, local, current, and something they will remember or share later.",
+      "whyItMatters": "For Vilnius Unfolded-style positioning, lead with confidence and memory: 'See the city through local proof, save what mattered, and leave with a story you can share.' Product implication: each recommendation should show why it earned trust, what local signal backs it, when it fits, and how the visitor can save or recap it after the trip. Tester prompt: 'What would make you trust this suggestion more than a generic top-10 list?'",
+      "noiseCaveat": "Go Vilnius and Startup Lithuania are official/promotional sources, and the LCC Summit page is event-marketing copy. Treat this as category and local narrative signal, not proof of user demand. Needs corroboration from visitor interviews, reviews, and usage tests.",
+      "links": [
+        {
+          "label": "Go Vilnius: Meet a local and summer discovery",
+          "url": "https://www.govilnius.lt/homepage"
+        },
+        {
+          "label": "Startup Lithuania: Discover Lithuania Challenge",
+          "url": "https://www.startuplithuania.com/publicfund/"
+        },
+        {
+          "label": "Go Vilnius: LCC Summit on AI and next-generation travel",
+          "url": "https://www.govilnius.lt/media-news/travel-leaders-vilnius-lufthansa-city-center-summit"
+        },
+        {
+          "label": "Go Vilnius: Off-the-beaten-track 2026 destination",
+          "url": "https://www.govilnius.lt/media-news/vilnius-ideal-offthebeatentrack-2026-destination"
+        }
+      ]
+    },
     {
       "date": "2026-06-18",
       "title": "AI sales adoption needs instrumentation, not just enablement",
@@ -1557,6 +1590,7 @@
     }
   ],
   "nextActions": [
+    "For Vilnius/local discovery, test a recommendation card that shows local proof, best-fit moment, sustainability or crowd-avoidance cue, save/share recap, and the reason this stop is worth remembering.",
     "Add AI-agent adoption instrumentation to RevOps demos and audits: tasks completed, account/person research usage, user-level coaching views, process adherence, source context touched, approval moments, and outcome follow-up.",
     "For AI outbound quality control, prototype a CI-style review flow: drafter/critic split, every claim tied to a source field, deterministic pre-send gates for broken merge fields/stale facts/banned claims, expert review only for the nuanced 10%, and outcome logs by ICP segment.",
     "Make agent demos show the work-context layer first: written job/spec, source-of-truth files, saved state, workspace boundary, permissions, review gate, handoff rule, and run log.",
