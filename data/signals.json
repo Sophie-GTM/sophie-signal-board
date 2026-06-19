@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-19T08:30:00+03:00",
-  "freshness": "learning system v7",
+  "updatedAt": "2026-06-19T10:30:00+03:00",
+  "freshness": "learning system v8",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that AI agent value is splitting into two credible lanes: governed context/action layers for GTM, and domain-specific service operations where fragmented systems create obvious pain. The June 19 scan adds a sharper proof-standard lesson from Salesforce buying Fin: agent claims now need auditable resolution definitions, escalation paths, channel coverage, deployment economics, and integration-risk handling before buyers or investors believe automation ROI."
+    "summary": "The strongest current pattern is that credible AI-agent GTM has moved from autonomy claims to proof systems: explicit success criteria, human approval, source-backed reasoning, adoption telemetry, eval suites, and action logs tied to outcomes. The June 19 scans show this from both sides: Salesforce buying Fin raises the enterprise ROI-proof bar, while LangChain's GTM-agent writeup shows how a production agent story becomes believable only when review gates, traces, scenario evals, and rep feedback are designed in from the start."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,39 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-19",
+      "title": "GTM agents need proof loops before autonomy claims",
+      "signalStrength": "Medium signal from LangChain's own GTM-agent production writeup, X/web amplification, Reddit GTM-agent tool discovery, and vendor category packaging; useful as a proof-standard pattern, still vendor-authored and not independent benchmark proof",
+      "tags": [
+        "GTM",
+        "Agent Trust",
+        "Sales Engineering",
+        "RevOps"
+      ],
+      "read": "The 10:30 scan found a practical GTM-agent proof pattern. LangChain says its internal GTM agent triggers from Salesforce, gathers context from systems like Gong, LinkedIn, web research, product and account data, then sends a Slack draft with reasoning and sources for rep approval. The interesting part is not the AI label; it is the control loop: defined success criteria before build, explicit human review, do-not-send checks, contact-history checks, source-backed reasoning, action logging for send/edit/cancel, evals in CI, trace-linked feedback, and rep-specific memory from edits. LangChain claims lead-to-qualified-opportunity conversion rose 250% from December 2025 to March 2026, reps reclaimed 40 hours per month each, and weekly active usage reached 86%. X/web search shows this writeup being repeated in GTM-agent discussions, while r/gtmengineering and vendor stack guides show the category crowding around AI SDRs, enrichment agents, demo agents, legal redlining, knowledge agents, and MCP-powered outreach.",
+      "explainLike18": "A GTM agent is more believable when it looks less like magic and more like a measured workflow. It should know when not to send, show why it wrote something, let a human approve or cancel it, learn from edits, and log enough data to prove whether it helped.",
+      "whyItMatters": "For Saulius's GTM work, sell the proof loop before the autonomy. Buyer-facing wording: 'The agent does not just draft outreach. It checks whether outreach should happen, cites the context it used, routes the draft for review, logs send/edit/cancel decisions, and feeds those outcomes back into evals and rep-specific memory.' Discovery prompt: 'Before trusting an AI GTM workflow, what would you need to see: do-not-send rules, source citations, approval history, usage by rep, conversion impact, or regression tests?' Product implication: demos should show the control surface, not only the finished email.",
+      "noiseCaveat": "LangChain is both the builder and beneficiary of the case study, so the performance numbers are not neutral third-party proof. X results are partly amplification of the same source. Reddit and vendor stack guides are useful for category language but noisy and promotional. X authenticated research remains blocked by xurl auth; no account-affecting actions were taken.",
+      "links": [
+        {
+          "label": "LangChain: How we built LangChain's GTM Agent",
+          "url": "https://www.langchain.com/blog/how-we-built-langchains-gtm-agent"
+        },
+        {
+          "label": "X/web: Harrison Chase amplification of GTM-agent writeup",
+          "url": "https://x.com/hwchase17/status/2031063723008475629"
+        },
+        {
+          "label": "Reddit r/gtmengineering: AI agents for GTM",
+          "url": "https://www.reddit.com/r/gtmengineering/comments/1ou0gki/ai_agents_for_gtm/"
+        },
+        {
+          "label": "HeyReach: AI agents for GTM engineering stack guide",
+          "url": "https://www.heyreach.io/blog/best-ai-agents"
+        }
+      ]
+    },
     {
       "date": "2026-06-19",
       "title": "Fin makes agent ROI proof the enterprise battleground",
@@ -1656,6 +1689,7 @@
     }
   ],
   "nextActions": [
+    "For GTM-agent demos, lead with the proof loop: do-not-send rules, source-backed reasoning, human approval, send/edit/cancel telemetry, trace-linked feedback, scenario evals, and outcome reporting before autonomy claims.",
     "For GTM engineering positioning, sell the governed function before the job title: signal definitions, CRM write rules, approval gates, adoption telemetry, cost exposure, handoff quality, and measurable pipeline outcomes.",
     "For Vilnius/local discovery, test a recommendation card that shows local proof, best-fit moment, sustainability or crowd-avoidance cue, save/share recap, and the reason this stop is worth remembering.",
     "Add AI-agent adoption instrumentation to RevOps demos and audits: tasks completed, account/person research usage, user-level coaching views, process adherence, source context touched, approval moments, and outcome follow-up.",
