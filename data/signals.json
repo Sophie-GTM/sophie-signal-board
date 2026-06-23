@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-23T15:14:00+03:00",
-  "freshness": "learning system v20",
+  "updatedAt": "2026-06-23T16:30:00+03:00",
+  "freshness": "learning system v21",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that agent-native products are converging into a trust stack, while GTM operators are pushing back on AI-scaled distribution. Buyers do not reward more automated volume by default. Trust comes from relevant work in the right channel, visible proof, local/domain credibility, clear human ownership, and agent workflows that can be inspected, approved, and handed off."
+    "summary": "The strongest current pattern is that agent-native products are converging into a trust stack, while GTM operators are pushing back on AI-scaled distribution. Fresh launch-market signal adds another layer: agent products increasingly need discovery rails, evals, observability, cost controls, payment paths, and production debugging before buyers will treat autonomy as serious infrastructure."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,43 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-23",
+      "title": "Agent GTM is moving from autonomy claims to operating rails",
+      "signalStrength": "Medium signal from Product Hunt's June 23 AI-agent category pages and daily launch surface, Product Hunt's June 22 AgentX launch, vendor buyer-guide language around AI SDR limitations, a recent r/sales AI SDR discussion, and xurl auth status; launch pages and vendor guides are promotional, but the pattern is consistent enough for GTM positioning",
+      "tags": [
+        "AI Trust",
+        "Agent Workflows",
+        "GTM",
+        "Sales Engineering"
+      ],
+      "read": "The 16:30 heartbeat scan found a useful shift in the agent market's language. Product Hunt now lists hundreds of AI-agent products and over a hundred AI sales tools, while today's launch surface includes infrastructure-style claims such as rails for agents to find and pay vendors, agent debugging, and local workflow tools. AgentX's June 22 launch is especially clear: it sells evals, observability, traceability, cost and latency comparisons, and CI/CD-style pre-deploy checks for agents. In parallel, AI SDR buyer-guide and Reddit sales discussions keep circling the same objection: automation is useful for research, drafting, qualification, and follow-up, but buyers distrust black-box replacement claims and bad-data scaling. X API reading remains blocked because xurl has no registered apps, so this scan used public web and Reddit-search signals only.",
+      "explainLike18": "The market is no longer only asking, \"Can an AI agent do the job?\" It is asking, \"How do I find it, test it, watch it, limit it, pay for it, and stop it when it goes wrong?\"",
+      "whyItMatters": "For Saulius's GTM work, sell agents as governed operating rails, not magic autonomy. Buyer-facing wording: \"The agent can act, but the system shows its sources, tests the workflow, caps spend, logs decisions, asks approval at the right moments, and hands work back to a human when confidence drops.\" Discovery prompt: \"Before trusting an agent in production, what would you need to see: eval results, cost caps, CRM write rules, approval gates, audit logs, rollback, or human handoff?\" Sales-engineering implication: demos should show the control plane before the happy-path automation.",
+      "noiseCaveat": "Product Hunt is a launch and promotion surface, so treat product counts, rankings, and descriptions as category-language evidence rather than adoption proof. Vendor buyer guides are useful for packaging but biased toward their own categories. Reddit sales anecdotes are noisy and self-reported. X was not checked through the account because xurl remains unauthenticated; no account-affecting Reddit or X actions were taken.",
+      "links": [
+        {
+          "label": "Product Hunt: AI agents category",
+          "url": "https://www.producthunt.com/categories/ai-agents"
+        },
+        {
+          "label": "Product Hunt: AI sales tools category",
+          "url": "https://www.producthunt.com/categories/ai-sales-tools"
+        },
+        {
+          "label": "Product Hunt: AgentX launch",
+          "url": "https://www.producthunt.com/products/agentx"
+        },
+        {
+          "label": "Product Hunt: June 23 launch surface",
+          "url": "https://www.producthunt.com/"
+        },
+        {
+          "label": "Reddit r/sales: AI SDR result discussion",
+          "url": "https://www.reddit.com/r/sales/comments/1t63m4o/any_good_result_with_ai_sdr_im_thinking_about/"
+        }
+      ]
+    },
     {
       "date": "2026-06-23",
       "title": "AI distribution still has to earn trust channel by channel",
@@ -2158,6 +2195,7 @@
     }
   ],
   "nextActions": [
+    "Make the next agent demo start with operating rails: discovery path, eval suite, observability trace, budget cap, payment or usage boundary, approval gate, rollback behavior, and human handoff before showing autonomous execution.",
     "Turn the GTM-agent operating-system signal into a reusable discovery checklist: diagnosis, context, action, approval, handoff, measurement.",
     "Add runtime cost governance to agent demos and audits: per-job budget, model policy, token/tool-call/retry caps, approval thresholds, circuit-breaker actions, traceable cost per successful task, and rollback behavior.",
     "For GTM-agent demos, lead with the proof loop: do-not-send rules, source-backed reasoning, human approval, send/edit/cancel telemetry, trace-linked feedback, scenario evals, and outcome reporting before autonomy claims.",
