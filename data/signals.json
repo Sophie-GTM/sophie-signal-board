@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-24T08:14:00+03:00",
-  "freshness": "learning system v22",
+  "updatedAt": "2026-06-24T10:30:00+03:00",
+  "freshness": "learning system v23",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that agent-native products are converging into a trust stack, while mainstream/open web coverage is making OpenClaw-style agents legible to solo founders. The buyer-friendly packaging is no longer 'give the agent everything.' It is one task, one channel, separate accounts, staged permissions, proof of useful work, then expanded access."
+    "summary": "The strongest current pattern is that agent-native products are converging into a trust stack, while the newest launch and technical-community signals are making proof artifacts more important: evals, traces, versioned work context, checkpoints, and proof-of-execution. The buyer-friendly packaging is no longer 'give the agent everything.' It is one job, one bounded workspace, visible evidence of work, human approval at risk points, then expanded access."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,43 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-24",
+      "title": "Agent proof is becoming the product surface",
+      "signalStrength": "Medium signal from Product Hunt's June 22 and week-of-June-22 agent/tooling launch surfaces, HN's June agent-workflow discussions, and recurring Reddit sales skepticism; useful for GTM and demo design, but Product Hunt is promotional, HN is developer-skewed, and Reddit is anecdotal",
+      "tags": [
+        "Agent Trust",
+        "GTM",
+        "Sales Engineering",
+        "OpenClaw"
+      ],
+      "read": "The 10:30 heartbeat scan found the agent market continuing to move from autonomy claims toward proof artifacts. Product Hunt's week-of-June-22 surface highlights AgentX for evaluating and fixing agent issues, AEVS for proof-of-execution, Skybridge for MCP app infrastructure, and mature category pages that frame AI agents and AI sales tools as large, crowded spaces rather than novelty launches. HN's recent agent-workflow threads add the technical proof layer: builders are discussing spec-driven development, restartable subtasks, versioned work context, and agent-oriented version-control ideas like Oak so agents can work without losing context or fighting worktrees. Reddit sales threads keep the GTM pressure honest: AI SDR and outreach claims still hit distrust when they scale bad data, weak fit, or generic messages without a clear human judgment point.",
+      "explainLike18": "A buyer does not just want to hear that an agent did the task. They want the receipt: what it planned, which sources it used, what changed, what failed, who approved it, and whether that evidence can be checked later.",
+      "whyItMatters": "For Saulius's GTM and OpenClaw-adjacent work, make proof the demo surface. Buyer-facing wording: \"Every agent job produces a visible work record: goal, source context, tool calls, approvals, output, cost, failures, and handoff notes.\" Discovery prompt: \"If an agent touched a customer, repo, inbox, or CRM tomorrow, what proof would you need before trusting the result: trace, eval, source list, approval log, rollback, cost cap, or versioned work record?\" Demo implication: show the proof record before the final output and turn a failure into a saved eval or checklist item.",
+      "noiseCaveat": "Product Hunt rankings and descriptions are launch-market and promotional signals, not retained-usage proof. HN is technically sophisticated but developer-skewed, useful for proof standards rather than broad buyer demand. Reddit sales anecdotes are noisy and self-reported, useful for distrust language and failure modes. X API reading remains blocked from prior xurl checks; no Reddit or X account-affecting actions were taken.",
+      "links": [
+        {
+          "label": "Product Hunt: Best of week of June 22, 2026",
+          "url": "https://www.producthunt.com/leaderboard/weekly/2026/26"
+        },
+        {
+          "label": "Product Hunt: AI agents category",
+          "url": "https://www.producthunt.com/categories/ai-agents"
+        },
+        {
+          "label": "HN: spec-driven AI dev workflow discussion",
+          "url": "https://news.ycombinator.com/item?id=48413629"
+        },
+        {
+          "label": "HN: Oak, version control designed for agents",
+          "url": "https://news.ycombinator.com/item?id=48631726"
+        },
+        {
+          "label": "Reddit r/sales: AI SDR results and skepticism",
+          "url": "https://www.reddit.com/r/sales/comments/1t63m4o/any_good_result_with_ai_sdr_im_thinking_about/"
+        }
+      ]
+    },
     {
       "date": "2026-06-24",
       "title": "Solo-founder agents need employee-shaped onboarding",
@@ -2228,6 +2265,7 @@
     }
   ],
   "nextActions": [
+    "For the next agent-trust demo, make the proof record the first-class artifact: goal, source context, tool calls, approvals, cost, failures, output, handoff, and saved eval case.",
     "Make the next agent demo start with operating rails: discovery path, eval suite, observability trace, budget cap, payment or usage boundary, approval gate, rollback behavior, and human handoff before showing autonomous execution.",
     "Turn the GTM-agent operating-system signal into a reusable discovery checklist: diagnosis, context, action, approval, handoff, measurement.",
     "Add runtime cost governance to agent demos and audits: per-job budget, model policy, token/tool-call/retry caps, approval thresholds, circuit-breaker actions, traceable cost per successful task, and rollback behavior.",
