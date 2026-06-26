@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-06-26T10:30:00+03:00",
-  "freshness": "learning system v29",
+  "updatedAt": "2026-06-26T16:30:00+03:00",
+  "freshness": "learning system v30",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that credible AI GTM proof is becoming operational: faster speed-to-lead, explicit qualification criteria, CRM-visible agent identities, clean human handoff, disclosure/approval rules, and auditability. Replacement language creates attention and anxiety, but serious buyers will ask for workflow evidence before autonomy."
+    "summary": "The strongest current pattern is that credible AI GTM proof is becoming operational: fast lead handling, explicit qualification criteria, governed customer context, CRM-visible agent identities, clean human handoff, disclosure/approval rules, and auditability. Replacement language creates attention and anxiety, but serious buyers will ask for workflow evidence before autonomy."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,39 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-06-26",
+      "title": "GTM agents need governed context, not just tool access",
+      "signalStrength": "Medium signal from Airbyte's June 24 GTM operations piece, Fin's June 19 GTM-agent guide, HeyReach's June-updated GTM-agent stack guide, and HN workflow/security threads; useful because multiple surfaces are converging on context, governance, handoff, and ownership, but most vendor sources are promotional and HN is developer-skewed",
+      "tags": [
+        "GTM Engineering",
+        "AI SDR",
+        "RevOps",
+        "Agent Trust"
+      ],
+      "read": "The 16:30 heartbeat scan found the GTM-agent story tightening around business context. Airbyte argues that production GTM agents stall when customer records are fragmented across CRM, billing, support, conversations, and enrichment systems; MCP/connectivity helps, but agents still need unified, current, governed context to make reliable decisions. Fin frames the buyer-facing version as cross-lifecycle continuity across inbound sales, service, and ecommerce, while HeyReach's June-updated stack guide shows the market packaging agent categories around SDRs, enrichment/research, developer frameworks, and MCP-powered LinkedIn outreach. HN threads add the operator caveat: agent workflows need explicit plans, source context, auth outside the agent context where possible, auditability, and human ownership.",
+      "explainLike18": "A sales agent is only as good as the customer context it can safely use. Connecting it to more tools is not enough if the data is stale, duplicated, conflicting, or unclear about who owns the final action.",
+      "whyItMatters": "For Saulius's GTM and sales-engineering work, position the agent as an operating layer over governed revenue context, not a message generator. Buyer-facing wording: \"The agent works from a clean customer context layer, follows defined qualification and write rules, shows the sources it used, logs the handoff, and leaves the human owner in control of risky actions.\" Discovery prompt: \"Where would an agent make the wrong call today because your customer context is split across CRM, billing, support, call notes, enrichment, and Slack?\" Demo implication: show the context merge, freshness/source labels, write permissions, and handoff record before showing outreach or qualification output.",
+      "noiseCaveat": "Airbyte, Fin, and HeyReach are vendor/content-marketing surfaces, so use them for category framing and proof hypotheses rather than independent adoption proof. HN is useful for technical objections and workflow standards, not broad buyer demand. Reddit/X account-affecting actions were not taken; X API reading remains blocked.",
+      "links": [
+        {
+          "label": "Airbyte: GTM operations and governed context",
+          "url": "https://airbyte.com/agentic-data/gtm-operations-ai-agents"
+        },
+        {
+          "label": "Fin: AI agents for GTM strategy",
+          "url": "https://fin.ai/learn/ai-agents-go-to-market-strategy"
+        },
+        {
+          "label": "HeyReach: AI agents for GTM engineering stack guide",
+          "url": "https://www.heyreach.io/blog/best-ai-agents"
+        },
+        {
+          "label": "HN: AI dev stack and workflow discussion",
+          "url": "https://news.ycombinator.com/item?id=48413629"
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "title": "AI GTM proof is moving to speed, handoff, and control",
