@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-02T16:30:00+03:00",
-  "freshness": "learning system v47",
+  "updatedAt": "2026-07-03T08:15:00+03:00",
+  "freshness": "learning system v48",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Directional, improving",
-    "summary": "The strongest current pattern is that trust is becoming the product surface for agents, GTM systems, local discovery, and sales-engineering proof work. The July 2 afternoon scan adds a sharper work-surface layer: Product Hunt now clusters agent launches around shared inboxes, local Mac permissions, shared coding memory, and team-visible execution surfaces, while Reddit and HN operator threads keep pointing to ownership, race conditions, explicit workflow state, context capture, and human takeover as the real trust tests. The GTM lesson is that buyers are not just evaluating whether an agent can act; they are evaluating where the work lives, who owns each thread or task, what context survives between sessions, which permissions were granted, and how a human can inspect, assign, approve, or take over. For OpenClaw-adjacent demos, show permissioned sessions, scoped tools, memory, approvals, logs, handoff, replay, diff, rollback, and regression prevention before selling autonomy. In AI GTM, the GTM engineer story is moving away from enrichment hacks and toward revenue systems design: data foundations, workflow mapping, edge cases, CRM semantics, automation boundaries, auditability, and failure-to-eval loops. The useful AI SDR metric is not messages sent, but qualified conversations created without burning trust, which means account source of truth, reason-to-contact evidence, last-touch memory, handoff rules, deterministic gates, bad-reply review, and replayable failure evidence become the product proof layer. In Vilnius/local travel, AI recommendations are becoming an acquisition surface, but the winning product layer is still freshness, provenance, local proof, and itinerary fit rather than generic list breadth. The shared GTM lesson: prove freshness, provenance, systems fit, embedded workflow distribution, local/permissioned control, browser and device control safety, versioned state, deterministic gates, replayable runs, value clarity, proof velocity, and handoff before selling breadth or autonomy."
+    "summary": "The strongest current pattern is that trust is becoming the product surface for agents, GTM systems, local discovery, and sales-engineering proof work. The July 3 morning scan reinforces that \"agent\" is becoming too broad to sell on its own: Product Hunt's AI-agent category now points to 604 considered products, related subcategories such as AI SDR and OpenClaw, credential/security FAQs, custom skills, and recent launches around replay, desktop memory, and domain-specific company operators. July 2 Product Hunt launches add work-surface evidence with Banger Mail for shared mailboxes, PieterPost MCP for postal-mail access, Macro for shared memory, and scritty for searchable memory across coding agents. HN operator language adds the workflow reality: successful agent work is increasingly spec-first, decomposed, checkpointed, and restartable because requirements are materialized outside the model. The GTM lesson is that buyers are not just evaluating whether an agent can act; they are evaluating where the work lives, what context survives between sessions, who authorized access, how credentials are governed, how runs are replayed, and how a human can inspect, assign, approve, or take over. For OpenClaw-adjacent demos, show permissioned sessions, scoped tools, memory, approvals, logs, handoff, replay, diff, rollback, and regression prevention before selling autonomy. In AI GTM, the GTM engineer story is moving away from enrichment hacks and toward revenue systems design: data foundations, workflow mapping, edge cases, CRM semantics, automation boundaries, auditability, and failure-to-eval loops. The useful AI SDR metric is not messages sent, but qualified conversations created without burning trust, which means account source of truth, reason-to-contact evidence, last-touch memory, handoff rules, deterministic gates, bad-reply review, and replayable failure evidence become the product proof layer. In Vilnius/local travel, AI recommendations are becoming an acquisition surface, but the winning product layer is still freshness, provenance, local proof, and itinerary fit rather than generic list breadth. The shared GTM lesson: prove freshness, provenance, systems fit, embedded workflow distribution, local/permissioned control, browser and device control safety, versioned state, deterministic gates, replayable runs, value clarity, proof velocity, and handoff before selling breadth or autonomy."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,43 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-07-03",
+      "title": "Specific work surfaces are beating generic agent claims",
+      "signalStrength": "Medium directional signal from Product Hunt's July 3 AI-agent category page, July 2 launch leaderboard, and an HN operator workflow thread. Strong for GTM positioning, demo proof, and product narrative; weaker as adoption proof because Product Hunt is a launch/category surface and HN is technical-operator skewed.",
+      "tags": [
+        "Agent Trust",
+        "Agent Workflows",
+        "GTM Engineering",
+        "OpenClaw"
+      ],
+      "read": "The July 3 morning scan reinforced that the agent category is fragmenting into proof surfaces rather than one generic autonomy claim. Product Hunt's AI-agent category says it now considers 604 products, exposes subcategories such as AI SDR and OpenClaw, and highlights buyer questions around sandboxing, API keys, credentials, custom skills, and plugin marketplaces. The same page's recent-launch language clusters around desktop context and memory, replay/debug infrastructure, and domain-specific company operators. Product Hunt's July 2 leaderboard adds concrete work surfaces: Banger Mail for shared mailboxes for teams and agents, PieterPost MCP for postal mail access, Macro for shared memory, and scritty for searchable memory across coding agents. HN operator language around AI dev workflows points to the operating pattern underneath: spec-driven decomposition, materialized requirements, restartable sessions, and subtask boundaries. The synthesis: the agent is less persuasive than the system of surfaces, state, permissions, and replay around it.",
+      "explainLike18": "Saying 'we have an AI agent' is getting vague. The sharper question is where the agent works, what it is allowed to touch, what memory or spec it uses, how humans review it, and whether failures can be replayed or fixed without starting over.",
+      "whyItMatters": "For Saulius's GTM and OpenClaw-adjacent work, keep demo proof anchored in the surface and state, not the model. Buyer-facing wording: \"Agents earn trust when they work inside visible surfaces with scoped permissions, persistent context, restartable plans, replayable runs, and human handoff.\" Discovery prompt: \"Which surface should hold the truth for this agent: inbox, local app, CRM, task board, spec, shared memory, credential vault, or replay log?\" Product implication: show a permissioned workflow with visible state, owner, credential boundary, human approval, and replay path before claiming autonomy.",
+      "noiseCaveat": "Product Hunt is useful for current packaging radar, not proof of retention or buyer adoption. HN is strong for builder workflow and trust language but not representative buyer demand. X API reading remains blocked because xurl has no registered apps, so this scan did not include authenticated X. No Reddit or X account-affecting actions were taken.",
+      "links": [
+        {
+          "label": "Product Hunt: AI agents category, updated July 3, 2026",
+          "url": "https://www.producthunt.com/categories/ai-agents"
+        },
+        {
+          "label": "Product Hunt: Best of July 2, 2026",
+          "url": "https://www.producthunt.com/leaderboard/daily/2026/7/2"
+        },
+        {
+          "label": "HN: Ask HN, AI dev tech stack and workflow",
+          "url": "https://news.ycombinator.com/item?id=48413629"
+        },
+        {
+          "label": "Startup Lithuania: Startupcation in Vilnius",
+          "url": "https://www.startuplithuania.com/startupcation/"
+        },
+        {
+          "label": "Invest Lithuania: top AI startups to watch in 2026",
+          "url": "https://investlithuania.com/blog/the-rise-of-ai-in-lithuania-top-ai-startups-to-watch-in-2026/"
+        }
+      ]
+    },
     {
       "date": "2026-07-02",
       "title": "Agent trust is shifting into shared work surfaces",
@@ -3105,6 +3142,7 @@
     }
   ],
   "nextActions": [
+    "For the next OpenClaw-adjacent demo narrative, name the work surface first: inbox, local app, CRM, task board, spec, shared memory, credential vault, or replay log, then show the agent acting inside it.",
     "Add shared-work-surface proof to agent demos: visible queue, owner, permission scope, persistent context, human review, action log, and takeover path.",
     "Add replay/fork/rollback questions to agent and GTM-engineering discovery before selling autonomy.",
     "Use Product Hunt as packaging radar only; corroborate launch signals with operator or technical failure evidence.",
