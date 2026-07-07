@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-07T16:30:00+03:00",
-  "freshness": "learning system v60",
+  "updatedAt": "2026-07-07T19:14:00+03:00",
+  "freshness": "learning system v61",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Medium directional, improving",
-    "summary": "The strongest current pattern is that agent and AI-sales trust now has five proof surfaces: authority boundaries, outcome economics, process legibility, category differentiation, and distribution proof. The July 7 16:30 scan adds the founder/operator reality: AI and agent tools make building easier, but they do not solve visibility, audience, trust, payments, or buyer discovery. Fresh r/SaaS language repeatedly says product work feels controllable while distribution is the harder game; HN and Product Hunt show agent workflows becoming more capable and more packaged. The GTM requirement is to sell the path from capability to adoption: who sees the product, why they trust it, what niche or workflow owns the pain, how the first qualified users arrive, and what proof turns usage into a repeatable motion."
+    "summary": "The strongest current pattern is that agent and AI-sales trust now has six proof surfaces: authority boundaries, outcome economics, process legibility, category differentiation, distribution proof, and contract-grade control. The July 7 19:14 scan adds procurement language from a fresh r/SaaS AI-contract thread: buyers need clarity on data training, model deprecation, output liability, EU AI Act/shared responsibility, reconstructable logs, rate limits, exit rights, and subprocessors. HN reinforces that strong agent work starts with planning and review habits, while travel-tech investor commentary says generic AI/travel-planning pitches are tired unless founders can show distribution, traction, and why now. The GTM requirement is to sell the control layer before the autonomy claim."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,36 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-07-07",
+      "title": "Agent trust now has a contract layer",
+      "signalStrength": "Medium directional signal from a fresh r/SaaS AI-contract thread, HN Claude Code workflow discussion, and PhocusWire travel-tech investor commentary from June 15, 2026. Strong for enterprise discovery, procurement proof, and sales-engineering narrative; weaker as quantified demand proof because Reddit is anecdotal and PhocusWire investor comments are curated.",
+      "tags": [
+        "Agent Trust",
+        "Procurement",
+        "GTM Engineering",
+        "Sales Engineering"
+      ],
+      "read": "The 19:14 scan found a useful refinement to the agent-trust story: credibility now needs a contract layer, not only a product demo. A fresh r/SaaS thread from someone reviewing enterprise AI and LLM contracts names the clauses that become buyer pain later: data training defaults, model retirement, output liability, EU AI Act or shared-responsibility language, logs detailed enough to reconstruct failures, pricing and rate-limit changes, exit rights for prompts/fine-tunes/embeddings, and downstream subprocessors. HN's Claude Code planning discussion reinforces the operational side: strong AI work mirrors senior engineering habits, with context-gathering, design, buy-in, and review before execution. PhocusWire's travel-tech investor piece adds a parallel market signal: generic AI claims and consumer-discovery apps are not enough when distribution is expensive and investors want traction, domain edge, and clear GTM.",
+      "explainLike18": "A buyer will not trust an agent just because it works in the demo. They need to know what data it uses, what happens when the model changes, who is liable, what logs exist, what it costs if usage spikes, and how they can leave without losing the work.",
+      "whyItMatters": "For Saulius's GTM work, make procurement-grade proof part of the agent story. Buyer-facing wording: “Before autonomy expands, we make the commercial controls explicit: data-use terms, model-change handling, output liability, compliance boundary, audit log, rate-limit policy, exit path, and subprocessors.” Discovery prompt: “Which AI contract risk would slow approval fastest here: data training, model deprecation, liability, EU AI Act responsibility, reconstructable logs, rate limits, lock-in, or subprocessors?” Demo implication: pair action replay with a contract-control checklist, not just a workflow screen.",
+      "noiseCaveat": "This is directional and early. Reddit is valuable for plain operator language, but one thread is not market sizing and can include second-hand claims. HN is builder-skewed and best used for workflow proof standards, not buying proof. PhocusWire is credible domain reporting, but investor comments are curated and travel-specific. No Reddit/X account-affecting actions were taken; X API reading remains blocked.",
+      "links": [
+        {
+          "label": "Reddit r/SaaS: AI tool contracts and hidden risk clauses",
+          "url": "https://www.reddit.com/r/SaaS/comments/1ufct9m/been_signing_a_lot_of_ai_tool_contracts_lately/"
+        },
+        {
+          "label": "HN: Claude Code planning-first workflow",
+          "url": "https://news.ycombinator.com/item?id=47106686"
+        },
+        {
+          "label": "PhocusWire: top investors in travel tech 2026",
+          "url": "https://www.phocuswire.com/top-investors-in-travel-tech"
+        }
+      ],
+      "nextAction": "Add a contract-control section to agent buyer materials: data training, model lifecycle, liability, compliance boundary, audit log, rate-limit/pricing policy, export/exit path, and subprocessors."
+    },
     {
       "date": "2026-07-07",
       "title": "AI makes building easier; distribution is still the hard part",
