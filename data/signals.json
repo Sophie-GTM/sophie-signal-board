@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-08T08:14:00+03:00",
-  "freshness": "learning system v62",
+  "updatedAt": "2026-07-08T10:30:00+03:00",
+  "freshness": "learning system v63",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Medium directional, improving",
-    "summary": "The strongest current pattern is that agent and AI-sales trust now has six proof surfaces: authority boundaries, outcome economics, process legibility, category differentiation, distribution proof, and contract-grade control. The July 8 08:14 scan adds a local-discovery refinement: Vilnius already markets “Meet a Local” as a free, interest-led visitor conversation, which is stronger product proof than generic AI itinerary generation. The travel-tech web is crowded with AI-trip-planner vendor SEO, while HN agent discussion keeps rewarding planning and review over autonomous output. The GTM requirement is to sell confidence, context, confirmation, and local proof before promising an AI-generated plan."
+    "summary": "The strongest current pattern is that agent and AI-sales trust now has seven proof surfaces: authority boundaries, outcome economics, process legibility, category differentiation, distribution proof, contract-grade control, and shared account truth. The July 8 10:30 scan adds an AI-SDR/GTM-agent refinement: operator language keeps separating useful automation from replacement hype. The credible promise is not autonomous prospecting at scale; it is better research, cleaner routing, current account context, explicit human handoff, and a feedback loop that improves the next motion."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,43 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-07-08",
+      "title": "AI SDR trust depends on shared account truth",
+      "signalStrength": "Medium directional signal from current Reddit sales/RevOps threads and HN agent-control discussion. Strong for positioning, discovery prompts, and demo proof surfaces; weaker as quantified market demand because Reddit is anecdotal, some posts are anonymous or AI-written, and HN is builder-skewed.",
+      "tags": [
+        "AI SDR",
+        "RevOps",
+        "GTM Engineering",
+        "Agent Trust"
+      ],
+      "read": "The 10:30 scan found a useful GTM-agent refinement. In r/sales, AI-SDR discussion splits between replacement narratives and a more practical view: AI can help with qualification, routing, research, and repetitive motions, but demand creation and anxious-quarter human judgment are still weak spots. In r/revops, the sharper pain is shared account reality: marketing, sales, product, and CS often see different stories about the same account, and AI makes that worse if the underlying context is fragmented. HN agent threads echo the same control pattern from the technical side: agent work needs approvals, scoped permissions, logs, and quality gates before autonomy becomes credible.",
+      "explainLike18": "The useful AI sales pitch is not “replace the SDR.” It is “give the human seller a cleaner account story, route the obvious work, and make it clear when a person must step in.”",
+      "whyItMatters": "For Saulius's GTM-agent and sales-engineering work, the best buyer-facing wedge is shared account truth plus human handoff. Buyer-facing wording: “We do not ask reps to trust a black-box AI SDR. We reconcile the account story, show why the account matters now, route the repetitive steps, and hand off with evidence when human judgment matters.” Demo implication: show the same account across CRM, marketing, product, and CS signals; surface conflict; propose next action; require approval; log the handoff.",
+      "noiseCaveat": "This is not proof that buyers are ready to replace SDR teams or buy a specific AI-SDR category. Reddit is noisy and vendor-contaminated, HN overweights technical control concerns, and unnamed layoff anecdotes need corroboration. Treat the signal as a positioning and proof-design cue: sell account truth, handoff quality, and measurable outcomes before autonomy.",
+      "links": [
+        {
+          "label": "Reddit r/sales: AI SDR line between automation and real SDRs",
+          "url": "https://www.reddit.com/r/sales/comments/1sukgoi/where_do_you_draw_the_line_between_ai_sdrs_and/"
+        },
+        {
+          "label": "Reddit r/sales: inbound SDR team replacement debate",
+          "url": "https://www.reddit.com/r/sales/comments/1s6496m/a_company_just_cut_their_entire_100person_inbound/"
+        },
+        {
+          "label": "Reddit r/revops: shared account reality before AI automation",
+          "url": "https://www.reddit.com/r/revops/"
+        },
+        {
+          "label": "HN: agent workflows need approvals, scopes, and audit trail",
+          "url": "https://news.ycombinator.com/item?id=47278720"
+        },
+        {
+          "label": "HN: agent orchestration as quality-gated workflow",
+          "url": "https://news.ycombinator.com/item?id=46734302"
+        }
+      ]
+    },
     {
       "date": "2026-07-08",
       "title": "Local discovery needs a human proof loop",
@@ -3655,6 +3692,8 @@
     }
   ],
   "nextActions": [
+    "For AI SDR and GTM-agent positioning, lead with shared account truth: cross-system context, conflicts found, reason-to-act, allowed automation, human handoff trigger, evidence packet, and feedback loop.",
+    "For sales-engineering demos, show account-context reconciliation before message generation: CRM state, marketing engagement, product usage, CS risk, source freshness, and the specific contradiction the agent found.",
     "For crowded AI-sales positioning, lead with the proof gap: signal quality, source freshness, deliverability limits, CRM handoff, cost per qualified outcome, approval route, evidence trail, and exception owner.",
     "For AI SDR measurement, build a scorecard around qualified conversations, relevant negative replies, disqualification reasons, source freshness, stack-break detection time, CRM handoff quality, AE cleanup time, replay log, and the next ICP or messaging change.",
     "For RevOps-facing agent demos, lead with scheduled reads before autonomous actions: cadence, systems compared, evidence packet, owner, safe update, approval-required next step, replay log, and drift review.",
