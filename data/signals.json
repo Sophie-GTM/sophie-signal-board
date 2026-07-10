@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-09T16:30:00+03:00",
-  "freshness": "learning system v69",
+  "updatedAt": "2026-07-10T08:14:00+03:00",
+  "freshness": "learning system v70",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Medium directional, improving",
-    "summary": "The strongest current pattern is that agent distribution is splitting into two jobs: discovery in marketplaces/categories and trust inside a visible control plane. The July 9 16:30 scan adds an agent-workflow layer: Product Hunt’s AI Agents category now acts like a crowded discovery surface, but HN and Reddit keep pointing to the proof buyers actually need: motion-specific context, state, validation, observability, credential boundaries, replay, approval, and rollback. For GTM and sales-engineering work, the demo should show the control plane as clearly as the agent output."
+    "summary": "The strongest current pattern is staged autonomy: agents earn trust by reading broadly, explaining evidence, suggesting next actions, learning from human go/no-go, and only then writing through scoped permissions. The July 10 08:14 scan adds operator and security support: HN points to user-scoped auth/API boundaries, r/revops names the read-vs-write split for GTM data, r/startups stresses governance ownership, and r/sales shows the cost of noisy AI-SDR replacement. For GTM and sales-engineering work, demo the trust ladder as clearly as the output."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,49 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-07-10",
+      "title": "Trustworthy agents separate reading from writing",
+      "signalStrength": "Medium directional signal from a July 10 HN security discussion on GitHub agent repo leakage, a 1-day-old r/revops thread on read-vs-write AI workflows, recent r/startups governance advice, r/sales AI-SDR skepticism, OECD Lithuania tourism AI context, and Invest Lithuania ecosystem coverage. Strong for GTM positioning, demo proof, source-quality review, and sales-engineering discovery prompts; weaker as quantified demand proof because Reddit is anecdotal/vendor-contaminated, HN is builder/security-skewed, and Lithuania sources are official or promotional.",
+      "tags": [
+        "Agent Trust",
+        "RevOps",
+        "AI SDR",
+        "GTM Engineering",
+        "Lithuania"
+      ],
+      "read": "The 08:14 scan rotated away from Product Hunt and found a tighter operator pattern: buyers and builders are converging on staged autonomy. A fresh HN thread about GitHub agent repo leakage frames the security bar clearly: agents should act through user-scoped permissions, APIs, RLS, and authentication boundaries, not broad ambient credentials plus prompt instructions. A 1-day-old r/revops thread says the same thing in GTM language: AI can read Salesforce, HubSpot, usage data, CS notes, transcripts, and dashboards more freely, but writing CRM fields, creating tasks, sending emails, or triggering workflows needs review. One commenter describes a staged rollout: read and report, read and suggest, train on human go/no-go, then allow approved actions only after the go ratio is stable. Recent r/startups advice adds the operating-owner point: teams fail when no one owns governance, access, and maintenance, so automations silently break. r/sales AI-SDR skepticism reinforces the commercial risk: poorly scoped automation creates bad-fit meetings and seller noise. Lithuania/tourism context adds a local lane: AI travel assistants and AI ecosystem narratives are visible, but the credible wedge is still trust, personalization, and evidence rather than generic chatbot breadth.",
+      "explainLike18": "Let AI look around before you let it touch the system. First it reads and reports, then it suggests, then humans approve enough examples, and only then should it write back or take action with scoped permissions and logs.",
+      "whyItMatters": "For Saulius’s GTM-agent and sales-engineering work, the strongest current demo story is staged autonomy. Buyer-facing wording: “The agent starts in read mode, builds the evidence packet, recommends the next action, learns from human go/no-go, and only writes back through scoped permissions once trust is proven.” Discovery prompt: “Where would you let AI read today, and where would writing need approval: CRM fields, tasks, outbound emails, routing, forecasts, customer notes, or spend?” Product implication: show a trust ladder in the demo: read-only signal, recommendation, approval history, permission scope, writeback action, audit log, rollback/replay.",
+      "noiseCaveat": "This is a directional trust and positioning signal, not a claim that buyers are purchasing a specific agent category today. Reddit threads are anecdotal and may include vendors. HN is excellent for security and implementation skepticism but not representative of mainstream buyers. OECD and Invest Lithuania sources are useful for local context but official/promotional. No Reddit or X account-affecting actions were taken; X API remains blocked unless managed-browser read-only research is deliberately used.",
+      "links": [
+        {
+          "label": "HN: GitLost discussion on scoped permissions for agents",
+          "url": "https://news.ycombinator.com/item?id=48827858"
+        },
+        {
+          "label": "Reddit r/revops: Should AI read freely but write carefully?",
+          "url": "https://www.reddit.com/r/revops/comments/1u8gzvs/should_ai_in_revops_read_freely_but_write/"
+        },
+        {
+          "label": "Reddit r/startups: governance and ownership when picking AI tools",
+          "url": "https://www.reddit.com/r/startups/comments/1tt6o9b/how_do_you_actually_pick_an_ai_tool_for_your/"
+        },
+        {
+          "label": "Reddit r/sales: AI SDR replacement skepticism and noise",
+          "url": "https://www.reddit.com/r/sales/comments/1s6496m/a_company_just_cut_their_entire_100person_inbound/"
+        },
+        {
+          "label": "OECD Tourism Trends 2026: Lithuania AI-powered travel assistant",
+          "url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en/full-report/lithuania_f76159b5.html"
+        },
+        {
+          "label": "Invest Lithuania: AI startup ecosystem, updated June 22 2026",
+          "url": "https://investlithuania.com/blog/the-rise-of-ai-in-lithuania-top-ai-startups-to-watch-in-2026/"
+        }
+      ],
+      "nextAction": "Create a staged-autonomy proof strip for GTM demos: read-only scan, evidence packet, recommendation, human go/no-go history, permission scope, approved writeback, audit log, and rollback/replay."
+    },
     {
       "date": "2026-07-09",
       "title": "Agent distribution needs a control-plane story",
