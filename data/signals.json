@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-14T08:15:00+03:00",
-  "freshness": "learning system v79",
+  "updatedAt": "2026-08-28T12:52:00+03:00",
+  "freshness": "learning system v80",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Medium directional, sharpening",
-    "summary": "The strongest current pattern is that agent trust is becoming a context-infrastructure problem. Buyers need to understand not only what an agent is allowed to do, but what context it loaded, how much it spent, which model did which work, what was cached or indexed, and whether live web data is grounded enough to support the recommendation."
+    "summary": "The strongest current pattern is that agent trust is moving from raw permission prompts toward reviewable intent. Buyers and operators need to see what the agent plans to do, which context and policy boundary shaped the decision, what requires approval, and how the run can be audited after execution."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,44 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-08-28",
+      "title": "Agent approval is becoming intent review",
+      "signalStrength": "Medium directional signal from a fresh scan: HN operator comments on Claude Code auto mode explicitly prefer approving summaries or mini-plans over individual command prompts; Product Hunt AI-agent category language keeps packaging role controls, auditing, require-approval policies, and shared state; Startup Lithuania is hosting a Vilnius founders event on EU AI Act transparency, AI-generated content labelling, and responsibility for employee/agency AI use; AI Summit Europe in Vilnius has programme tracks on human-in-the-loop operations, secure orchestration, identity, delegation, audit readiness, and moving AI from demos to production. Strong for OpenClaw-adjacent sales-engineering proof; weaker as demand proof because Product Hunt and event pages are promotional, HN is builder-skewed, and local compliance sources show attention rather than budgets.",
+      "tags": [
+        "Agent Trust",
+        "Agent Workflows",
+        "GTM Engineering",
+        "Vilnius"
+      ],
+      "read": "The useful shift is from approving atomic tool calls to approving proposed work. HN users describe manual command approval as tedious and weak: it catches neither bad direction nor poor judgment very well. The better control surface is a compact summary or mini-plan that says what the agent intends to do, what files/systems/actions are in scope, what stays read-only, what requires explicit approval, and what evidence the human can inspect. Product Hunt launch/category language points the same way from the market-packaging side: role controls, auditing, shared state, policy evaluation, block/warn/monitor/require_approval modes, and human-in-loop workflow approvals. Vilnius sources add a regional proof angle: founders now need practical answers for AI disclosure, AI-generated marketing labels, employee/agency AI responsibility, secure agent architecture, identity, delegation, and audit readiness.",
+      "explainLike18": "Clicking yes on ten separate commands does not mean you understand the job. A better agent shows the whole next move first: what it is trying to do, what it may touch, what it will not do, when it must ask, and where the log will live.",
+      "whyItMatters": "For Saulius's GTM and OpenClaw-adjacent demos, show the approval screen as intent review, not as a scary permission popup. Buyer-facing wording: \"Before anything sensitive runs, the agent shows the proposed work packet: objective, sources, systems in scope, permission boundary, risky steps, approval route, and replayable log.\" Discovery prompt: \"Where do your teams lose control today: approving too many tiny actions, trusting a black-box automation, missing the context behind the recommendation, or lacking a clean audit trail after work is done?\"",
+      "noiseCaveat": "Do not present this as market sizing. HN is excellent for workflow pain but builder-skewed; Product Hunt is packaging radar, not buying evidence; AI-agent listicles are vendor-led; Startup Lithuania and AI Summit Europe are useful local/regulatory context but promotional. Treat this as a proof-standard update: serious agents need reviewable intent, not just permissions.",
+      "links": [
+        {
+          "label": "HN: Auto mode is now the default in Claude Code",
+          "url": "https://news.ycombinator.com/item?id=49239021"
+        },
+        {
+          "label": "Product Hunt: AI agents category",
+          "url": "https://www.producthunt.com/categories/ai-agents"
+        },
+        {
+          "label": "Product Hunt: Execlave policy gate launch",
+          "url": "https://www.producthunt.com/products/execlave"
+        },
+        {
+          "label": "Startup Lithuania: Vilnius founders event on EU data, AI and advertising rules",
+          "url": "https://www.startuplithuania.com/events/%F0%9F%9A%80-vilnius-founders-eu-data-ai-advertising-rules-what-startups-need-to-know/"
+        },
+        {
+          "label": "AI Summit Europe 2026 in Vilnius",
+          "url": "https://aisummiteurope.eu/"
+        }
+      ],
+      "nextAction": "Add an intent-review packet to OpenClaw/GTM-agent demo narratives: objective, source context, systems in scope, permission boundary, approval route, risky actions, read-only versus write steps, owner, replay log, and rollback path."
+    },
     {
       "date": "2026-07-14",
       "title": "Context budget is an agent control surface",
