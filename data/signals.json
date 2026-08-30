@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-30T10:44:00+03:00",
-  "freshness": "learning system v81",
+  "updatedAt": "2026-08-30T13:44:00+03:00",
+  "freshness": "learning system v82",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
     "confidence": "Medium directional, now supported by NIST identity guidance",
@@ -214,6 +214,27 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-08-30",
+      "title": "Vilnius mobility is consolidating; discovery must stay distinct",
+      "signalStrength": "Medium local product signal from an independent LRT/BNS report. Vilnius's JUDU app, launched in early July, combines public-transport tickets, parking payments, real-time trip planning, and bicycle routing; it reported about 68,000 users in late August and targets 150,000 by the end of October as legacy m.Ticket and m.Parking apps are retired. This is concrete city-mobility adoption, but it is not visitor-behavior research or proof that tourists need another app.",
+      "tags": [
+        "Vilnius",
+        "Local Discovery",
+        "GTM Engineering"
+      ],
+      "read": "A city-owned mobility layer is absorbing the transactional jobs: tickets, parking, route planning, and cycling directions. That makes a local discovery product weaker if it mimics utility planning, but clearer if it solves the preceding decision: what is worth doing now, why it fits this person and moment, what local evidence supports it, and how to get there. The right product relation is handoff, not feature parity.",
+      "explainLike18": "JUDU is becoming the app for moving around the city. A discovery app should not try to be a second ticket machine. It should help someone choose a worthwhile place or moment, explain why, then hand them to the best way to get there.",
+      "whyItMatters": "For Vilnius Unfolded-style GTM, position around trusted choice and local meaning rather than route utility. Buyer-facing wording: \"Choose a place with local proof and a reason it fits your moment; when you are ready to move, hand off to the city mobility layer.\" Product implication: make the onward-journey handoff explicit and validate whether it reduces decision friction without rebuilding transit, parking, or payment infrastructure.",
+      "noiseCaveat": "JUDU's current-user count and October target come from the operator, reported by LRT/BNS; they likely reflect residents and drivers as well as visitors. No public integration path, tourist breakdown, or evidence that discovery users want a separate handoff is established here. Treat this as an adjacent-product boundary, not a partnership or demand claim.",
+      "links": [
+        {
+          "label": "LRT/BNS: Vilnius launches unified JUDU app",
+          "url": "https://www.lrt.lt/en/news-in-english/19/3032216/vilnius-launches-new-unified-app-for-public-transit-parking-and-trip-planning"
+        }
+      ],
+      "nextAction": "In local-discovery tests, ask: after you choose a stop, do you want the next-step mobility handoff, which city app do you already use, and would routing/payment features help or merely duplicate JUDU?"
+    },
     {
       "date": "2026-08-30",
       "title": "NIST: agent approval needs a flight plan, not more prompts",
