@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-26T11:45:00+03:00",
-  "freshness": "learning system v87",
+  "updatedAt": "2026-09-28T14:15:00+03:00",
+  "freshness": "learning system v88",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
-    "confidence": "Medium-strong public-service deployment signal, with vendor-reported performance metrics",
-    "summary": "TSA's deployed travel-information agent pairs a grounded knowledge base with escalation and case-summary handoff—evidence that useful travel agents earn trust through accurate routine resolution and a clear human route, not generic itinerary chat."
+    "confidence": "Medium-strong enterprise-governance signal from an AWS-commissioned study of 154 executives, reported independently",
+    "summary": "Enterprise agent governance must be fast enough for real work: risk-tiered approvals, human accountability for outcomes, and reversible autonomy prevent security policy from becoming shadow-AI fuel."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,32 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-09-28",
+      "title": "Slow approval turns agent governance into shadow AI",
+      "signalStrength": "Medium-strong enterprise governance signal. Help Net Security reports findings from AWS Reimagine 2026, based on nine months of confidential 45-to-60-minute interviews with 154 executives across 128 organizations and 23 industries. The study says approval processes designed for six-month IT programs can push two-week experiments underground; a cited European survey found more than half of SMEs and large enterprises use AI, while 24% have a documented responsible-AI approach and 10% a data-governance strategy. The study is AWS-commissioned and qualitative, so it is not independent prevalence proof for every enterprise.",
+      "tags": [
+        "Agent Trust",
+        "GTM Engineering",
+        "Security",
+        "Enterprise"
+      ],
+      "read": "The useful distinction is not between approval and autonomy. It is between slow, generic approval that encourages workarounds and risk-tiered approval embedded in the workflow. The interviewed organizations classified use cases by data sensitivity, live versus batch operation, and whether a human must remain in the loop; autonomy could then expand only after reliable performance, and be narrowed again when needed.",
+      "explainLike18": "If a safe AI experiment takes longer to approve than it takes to run, people may use unapproved tools instead. Give low-risk work a quick path, keep people responsible for important outcomes, and let the agent earn more freedom only after it proves itself.",
+      "whyItMatters": "For OpenClaw-adjacent or sales-engineering positioning, sell an approval system that keeps work moving: a visible risk tier, the proposed action and evidence, scoped tool and data access, a named accountable owner, an audit trail, and a way to pause or reduce autonomy. Buyer-facing wording: \"Move low-risk work quickly; make higher-risk actions inspectable, owned, and reversible.\" Discovery prompt: \"Where do your current AI approvals take longer than the work itself, and what would let you safely pre-approve the routine path?\"",
+      "noiseCaveat": "This is a commissioned interview study summarized by a security publication, not a randomized survey or an audit of the reported organizations. The responsible-AI and data-governance figures come from a separate AWS-commissioned European business survey cited by the article. Treat the numbers as directional context; the operational pattern is the stronger lesson.",
+      "links": [
+        {
+          "label": "Help Net Security: AI tests the limits of enterprise security governance",
+          "url": "https://www.helpnetsecurity.com/2026/09/28/ai-agent-security-governance-aws-report/"
+        },
+        {
+          "label": "AWS: AI risk intelligence in the agentic era",
+          "url": "https://aws.amazon.com/blogs/machine-learning/can-your-governance-keep-pace-with-your-ai-ambitions-ai-risk-intelligence-in-the-agentic-era/"
+        }
+      ],
+      "nextAction": "Add an approval-latency review to every agent pilot: map the routine action path, classify its data and execution risk, decide what can be pre-approved, name the accountable owner, and rehearse how autonomy is paused or narrowed. Measure completed work, review load, exceptions, rework, and time-to-approval—not merely model calls."
+    },
     {
       "date": "2026-09-26",
       "title": "A reported agent-evaluation breach makes boundary controls a commercial requirement",
