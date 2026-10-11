@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-30T13:15:00+03:00",
-  "freshness": "learning system v89",
+  "updatedAt": "2026-10-11T08:15:00+03:00",
+  "freshness": "learning system v90",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
-    "confidence": "Medium-strong multi-enterprise implementation signal, reported by Fortune with named operator interviews and specific workflow outcomes",
-    "summary": "Early adopters are replacing agent counts and time-saved claims with narrow workflow KPIs, accountable business partners, and outcome measures such as routing accuracy, capacity returned, and business-cycle time."
+    "confidence": "Directional local-discovery signal from SOCi's U.S. vendor-sponsored consumer index, reported independently by Search Engine Land",
+    "summary": "AI is becoming a meaningful discovery surface for local businesses. The actionable implication is not generic GEO content: it is current, structured, provable local information that can survive a recommendation journey from question to verification."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,32 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-10-11",
+      "title": "Local discovery is fragmenting into AI answers, so proof has to travel with the recommendation",
+      "signalStrength": "Directional but material. SOCi's 2026 U.S. Local Discovery Index reports that 52% of consumers used an AI tool to find or research a local business in the last 30 days, up from 9% in its 2025 study. Search Engine Land independently reported the same figures. The underlying index is vendor-sponsored and U.S.-only, so it is evidence of channel change—not a universal conversion or booking benchmark.",
+      "tags": [
+        "AI Search",
+        "Local Discovery",
+        "Consumer",
+        "Travel"
+      ],
+      "read": "Local discovery no longer ends at a map, review site, or destination homepage. People increasingly begin with an AI question, then need enough structured, current, trustworthy detail to decide whether a recommendation is worth checking, saving, or visiting. That raises the value of source freshness, exact location and opening data, operator-owned evidence, clear provenance, and a fast path from an answer to verification.",
+      "explainLike18": "More people are asking AI where to go nearby. If a café, event, or local experience is hard for an AI to understand or verify, it may not be recommended—or people may not trust the recommendation. Good local information now needs to be easy to check, not just nice to read.",
+      "whyItMatters": "For a Vilnius/local-discovery product, compete on verified confidence rather than a giant list of places. Buyer-facing wording: \"Every recommendation should show why it fits, where the detail came from, and what the visitor should verify before they go.\" Product implication: store source, timestamp, location, eligibility constraints, and a validation link alongside every recommendation; measure saved, verified, and completed visits separately from AI referral traffic. Discovery prompt: \"Which visitor decisions are currently made from generic search or chat, and what proof would make a local recommendation safe enough to act on?\"",
+      "noiseCaveat": "SOCi sells local-marketing software and its index is U.S.-focused, so its reported jump may not generalize to Vilnius, tourism, or every demographic. The study measures AI use for local-business research—not recommendation quality, bookings, or economic impact. Treat it as a strong prompt to instrument and test AI-discovery readiness locally, not as a demand forecast.",
+      "links": [
+        {
+          "label": "SOCi: 2026 Local Discovery Index statistic",
+          "url": "https://www.soci.ai/blog/marketing-statistics/"
+        },
+        {
+          "label": "Search Engine Land: AI usage surges for local search",
+          "url": "https://searchengineland.com/ai-usage-surges-6x-for-local-search-fragmenting-the-digital-ecosystem-492614"
+        }
+      ],
+      "nextAction": "Run a small Vilnius discovery audit: select 10 high-intent visitor questions, compare search and AI answers, record whether each recommendation includes source, freshness, exact location, current availability, proof, and a verification path, then use the gaps to prioritize structured local content and product instrumentation."
+    },
     {
       "date": "2026-09-30",
       "title": "Agent ROI becomes credible only when the workflow owns the metric",
