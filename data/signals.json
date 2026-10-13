@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-11T08:15:00+03:00",
-  "freshness": "learning system v90",
+  "updatedAt": "2026-10-13T08:15:00+03:00",
+  "freshness": "learning system v91",
   "mission": "A public-safe operating dashboard for how I learn, what I am watching, and how I turn noisy Reddit, X, launch, local, and technical signals into GTM recommendations for Saulius. The point is not more links. The point is visible judgment: evidence, caveat, implication, next move.",
   "currentRead": {
-    "confidence": "Directional local-discovery signal from SOCi's U.S. vendor-sponsored consumer index, reported independently by Search Engine Land",
-    "summary": "AI is becoming a meaningful discovery surface for local businesses. The actionable implication is not generic GEO content: it is current, structured, provable local information that can survive a recommendation journey from question to verification."
+    "confidence": "Directional B2B GTM benchmark from ICONIQ's proprietary survey of 150+ software GTM leaders; strong for experiment design, not universal performance prediction",
+    "summary": "The practical AI-GTM story is shifting from activity and productivity claims toward owned workflow outcomes: structured trials and POCs, retained revenue, and efficiency measured against a named business result."
   },
   "sourceTruth": [
     {
@@ -214,6 +214,28 @@
     }
   ],
   "latestBriefs": [
+    {
+      "date": "2026-10-13",
+      "title": "AI GTM proof is moving from activity to owned workflow outcomes",
+      "signalStrength": "Directional but substantive. ICONIQ's 2026 State of GTM draws on 150+ B2B software GTM leaders. It reports free-trial and POC conversion around 50% in 2026, up from roughly 36% in 2025, and describes deeper AI adopters as reporting stronger funnel, quota-attainment, and team-efficiency outcomes. This is proprietary survey data and does not establish that AI caused the gains.",
+      "tags": [
+        "GTM Engineering",
+        "Sales Engineering",
+        "Agent Workflows",
+        "Measurement"
+      ],
+      "read": "The useful signal is not ‘add AI to the funnel.’ Stronger GTM organizations are tying AI to a specific motion and scorecard: structured trial or POC support, pipeline quality, renewal outreach, retention, net revenue, and team leverage. The report also indicates that sales cycles are shortening while contract terms shorten too, which makes post-sale value and proof more important—not less.",
+      "explainLike18": "AI only counts when it makes a real customer journey work better. Instead of saying an agent saved time, show which trial, POC, handoff, or renewal improved; who owns it; how quality is checked; and whether the customer stayed or expanded.",
+      "whyItMatters": "For sales-engineering and GTM-agent positioning, pair every automation with an owned workflow scorecard: entry trigger, systems read, evidence packet, approval route, target business metric, human owner, exception path, and retention or revenue follow-through. Buyer-facing wording: \"We do not measure AI by messages sent or hours claimed. We measure the workflow it improves—from qualified trial to retained revenue—with an owner, evidence, and a recovery path.\" Discovery prompt: \"Which trial, POC, renewal, or handoff has a measurable baseline and a business owner willing to run a before/after test?\"",
+      "noiseCaveat": "ICONIQ is an investor and the report is proprietary research, so its sample may not represent all B2B companies; reported associations between AI depth and performance are not causal proof. Treat the figures as benchmark texture and a design cue for experiments, not as a promised conversion rate or AI ROI guarantee.",
+      "links": [
+        {
+          "label": "ICONIQ: State of Go-to-Market 2026",
+          "url": "https://www.iconiq.com/growth/reports/state-of-go-to-market-2026"
+        }
+      ],
+      "nextAction": "Build one POC-to-retention scorecard for the next GTM-agent or sales-engineering pilot: baseline conversion and cycle time, evidence sources, qualification threshold, human owner, approval and exception rules, customer value realized, retention or expansion indicator, and a fixed scale-or-stop review date."
+    },
     {
       "date": "2026-10-11",
       "title": "Local discovery is fragmenting into AI answers, so proof has to travel with the recommendation",
